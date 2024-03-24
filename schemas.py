@@ -1,4 +1,6 @@
 from pydantic import BaseModel
+class WebhookMessage(BaseModel):
+    object: str
 
 class TimestampBaseModel(BaseModel):
     created_at: str
