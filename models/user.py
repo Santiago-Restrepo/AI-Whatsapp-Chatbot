@@ -9,8 +9,7 @@ class User(Base):
 
     id = Column(Integer, primary_key=True)
     name = Column(String)
-    phone = Column(String)
-    country_code = Column(String)
+    phone = Column(String, unique=True)
     created_at = Column(DateTime)
 
     conversations = relationship("Conversation", back_populates="user")
