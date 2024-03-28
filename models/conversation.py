@@ -10,6 +10,7 @@ class Conversation(Base):
     user_id = Column(Integer, ForeignKey("users.id"))
     llm_id = Column(Integer, ForeignKey("llms.id"))
     created_at = Column(DateTime)
+    finished_at = Column(DateTime)
 
     user = relationship("User", back_populates="conversations")
     llm = relationship("Llm", back_populates="conversations")
