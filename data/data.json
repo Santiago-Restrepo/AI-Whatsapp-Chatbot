@@ -1,0 +1,701 @@
+{
+  "business_information": {
+    "mision": "La Personer\u00eda de Medell\u00edn protege y promueve los derechos humanos, vigila la conducta oficial de quienes desempe\u00f1en funciones p\u00fablicas, protege el inter\u00e9s p\u00fablico y el medio ambiente, aporta a la soluci\u00f3n alternativa de conflictos; al fortalecimiento, respeto y garant\u00eda de la diversidad y grupos poblacionales, buscando estar m\u00e1s cerca de la comunidad.",
+    "vision": "La Personer\u00eda de Medell\u00edn al finalizar el cuatrienio 2020-2024, ser\u00e1 identificada local y globalmente como una entidad comprometida en el cumplimiento de su mandato constitucional, en la protecci\u00f3n a los derechos humanos, al medio ambiente, el h\u00e1bitat, a los seres sintientes, a la diversidad, a los diferentes grupos \u00e9tnicos. Cercana a la comunidad a trav\u00e9s de la inclusi\u00f3n con enfoque diferencial de los sectores m\u00e1s vulnerables; acompa\u00f1ando a las v\u00edctimas del conflicto, liderando\u00a0 la lucha anticorrupci\u00f3n; orientando la formulaci\u00f3n y aplicaci\u00f3n de las pol\u00edticas p\u00fablicas que aseguren la diversidad, el pluralismo, la convivencia pac\u00edfica; vigilando el desarrollo de los acuerdos del post-conflicto; adaptada a las nuevas tecnolog\u00edas y transformada para asumir grandes retos; fortalecida en su recurso humano,\u00a0 mejorando la prestaci\u00f3n de sus servicios.",
+    "values": [
+      {
+        "title": "Compromiso",
+        "description": "Somos conscientes de la importancia de nuestro rol como servidores p\u00fablicos y estamos en disposici\u00f3n permanente para comprender y resolver las necesidades de las personas con las que nos relacionamos en las\u00a0 labores cotidianas, buscando siempre mejorar su bienestar."
+      },
+      {
+        "title": "Rectitud",
+        "description": "los integrantes de la entidad act\u00faan de forma transparente, atenta, con suma educaci\u00f3n, siempre con sinceridad, se comportan de manera justa, \u00edntegra y de manera firme en sus decisiones, reconociendo el camino correcto \u00edntimamente relacionado con la verdad."
+      },
+      {
+        "title": "Transparencia",
+        "description": "comunicar la realidad de la entidad a todas las partes interesadas, dentro de un clima de confianza. La entidad se caracteriza por asumir una pr\u00e1ctica social guiada por la sinceridad y por la total accesibilidad a toda la informaci\u00f3n vinculada, con las excepciones de ley, la participaci\u00f3n de todos los funcionarios en la toma de decisiones y que concierne e interesa a la opini\u00f3n p\u00fablica."
+      },
+      {
+        "title": "Honradez",
+        "description": "hace referencia a la forma como act\u00faan en el ejercicio de sus funciones todos los servidores de la entidad, constituy\u00e9ndose en una cualidad humana que consiste en comportarse y expresarse con\u00a0sinceridad\u00a0y\u00a0coherencia, respetando los valores de la justicia\u00a0y la\u00a0verdad. Actuando siempre con fundamento en la verdad, cumpliendo sus deberes con transparencia y rectitud, y siempre favoreciendo el inter\u00e9s general."
+      },
+      {
+        "title": "Lealtad",
+        "description": "asumimos \u00a0el compromiso de defender y de ser fieles a lo que creemos y en quien creemos. Consiste en la obediencia de las normas, el honor, la\u00a0 gratitud y respeto, lo que implica cumplir con nuestros compromisos a\u00fan frente a circunstancias cambiantes o adversas"
+      },
+      {
+        "title": "Respeto",
+        "description": "implica reconocer en s\u00ed y en los dem\u00e1s los derechos y las obligaciones. Es un valor que permite a los servidores de la Personer\u00eda de Medell\u00edn reconocer, aceptar, apreciar y valorar las cualidades del pr\u00f3jimo y sus\u00a0derechos, reconociendo, valorando y tratando de manera digna a todas las personas, con sus virtudes y defectos, sin importar su labor, su procedencia, t\u00edtulos o cualquier otra condici\u00f3n. El respeto no solo se manifiesta hacia la actuaci\u00f3n de las personas o hacia las leyes, tambi\u00e9n se expresa hacia la\u00a0autoridad."
+      },
+      {
+        "title": "Diligencia",
+        "description": "cumplimos con los deberes, funciones y responsabilidades asignadas al cargo de la mejor manera posible, con atenci\u00f3n, prontitud, destreza y eficiencia, para as\u00ed optimizar el uso de los recursos del Estado."
+      },
+      {
+        "title": "Justicia",
+        "description": "actuamos con imparcialidad garantizando los derechos de las personas, con equidad, igualdad y sin discriminaci\u00f3n."
+      }
+    ]
+  },
+  "business_history": [
+    {
+      "date": "Roma imperial",
+      "description": "El defensor civitatis defend\u00eda a los ciudadanos m\u00e1s pobres, contra las arbitrariedades de los funcionarios."
+    },
+    {
+      "date": "Francia | Edad media",
+      "description": "Se originaron algunas personer\u00edas con funciones en esencia fiscales, como defensora del pueblo y como parte de los procesos penales."
+    },
+    {
+      "date": "Am\u00e9rica latina | 1519 y 1528",
+      "description": "Instituci\u00f3n de los s\u00edndicos personeros del com\u00fan.\n\nEsta entidad fue designada por el cabildo para defender los derechos de los ind\u00edgenas en los concejos, audiencias y tribunales."
+    },
+    {
+      "date": "Colombia | Siglo XIV",
+      "description": "En nuestro pa\u00eds, la instituci\u00f3n del personero municipal fue heredada del r\u00e9gimen espa\u00f1ol durante la colonia, en el siglo XIV, oficiando como defensor de los derechos de los ciudadanos."
+    },
+    {
+      "date": "A\u00f1o 1825",
+      "description": "El 11 de marzo la ley 11 incluy\u00f3 en la reglamentaci\u00f3n de las organizaciones municipales la figura de procurador municipal, encargado de representar los intereses municipales.\nDespu\u00e9s, la Ley 3 de 1848, estableci\u00f3 que el presidente del Concejo Municipal ejercer\u00eda las funciones del personero."
+    },
+    {
+      "date": "A\u00f1o 1863",
+      "description": "Aunque la Constituci\u00f3n de 1863 declaraba al Ministerio P\u00fablico, en cabeza del Procurador General de la Naci\u00f3n, como defensora de los ciudadanos, pero no se mencion\u00f3 al personero ni incluy\u00f3 sus funciones."
+    },
+    {
+      "date": "A\u00f1o 1886",
+      "description": "El personero es incluido como parte del Ministerio P\u00fablico.\nEn la Ley 81 de 1886 se establece que en cada distrito y municipio se habr\u00eda un personero municipal,\u00a0 encargado de defender los intereses de la naci\u00f3n, promover la ejecuci\u00f3n de leyes, sentencias judiciales y disposiciones administrativas, y vigilar la conducta oficial de los empleados p\u00fablicos."
+    },
+    {
+      "date": "A\u00f1o 1888",
+      "description": "Con la Ley 149 de 1888, se le atribuye a la instituci\u00f3n la representaci\u00f3n legal de los municipios, siendo el encargado de realizar los contratos para la adquisici\u00f3n de bienes y servicios, entre otros."
+    },
+    {
+      "date": "A\u00f1o 1910",
+      "description": "Con la reforma constitucional de 1910, se faculta al Concejo de Medell\u00edn para elegir, anualmente, al personero del distrito.\n\nPor causa del misterioso incendio desaparecieron todos los registros hist\u00f3ricos consignados en el Concejo de Medell\u00edn durante los \u00faltimos a\u00f1os del siglo XIX y principios del XX.\n\n\u00a0"
+    },
+    {
+      "date": "A\u00f1o 1932",
+      "description": "Mediante el Acuerdo 63 de 1932 se crea la Personer\u00eda de Medell\u00edn, aunque en principio se denomin\u00f3 departamento de asesor\u00eda, con el personero\ncomo jefe.\nEste mismo a\u00f1o, el Acuerdo 104 reorganiza la estructura de la Personer\u00eda pasando a llamarse Personer\u00eda Municipal, hoy Personer\u00eda de Medell\u00edn.\n\u00a0Se le atribuye la obligaci\u00f3n de revisar todos los proyectos de acuerdo de car\u00e1cter permanente que cursen en la administraci\u00f3n municipal.\nCon el pasar del tiempo, se le han agregado funciones, adem\u00e1s de que la estructura organizacional de la instituci\u00f3n se ha modificado constantemente."
+    },
+    {
+      "date": "A\u00f1o 1944",
+      "description": "El Acuerdo 5 de 1944 estableci\u00f3 la\ncontrataci\u00f3n de abogados a contrato, y de un administrador de bienes\u00a0 municipales, adem\u00e1s de jefes de secci\u00f3n de negocios generales y civiles, y de negocios penales."
+    },
+    {
+      "date": "A\u00f1o 1946",
+      "description": "En este acuerdo se estableci\u00f3 las funciones:\n\nIniciar y asistir los juicios contenciosos en las empresas p\u00fablicas y dem\u00e1s dependencias municipales.\nPr\u00e1cticas de visitas a c\u00e1rceles.\nAtenci\u00f3n de quejas de los detenidos y en general de toda la ciudadan\u00eda.\nCompilar y ordenar todos los t\u00edtulos jur\u00eddicos que el municipio posea sobre los diversos bienes inmuebles.\nLicitaciones sobre venta y arrendamiento de los bienes ra\u00edces municipales.\n\n\u00a0"
+    },
+    {
+      "date": "A\u00f1o 1948",
+      "description": "el acuerdo 37 de 1946 le agrega a la estructura\norganizacional de la entidad la secci\u00f3n de Bienes y Servicios, y la Abogac\u00eda de los Pobres, adem\u00e1s de la Secci\u00f3n de Vigilancia Judicial y Administrativa, y el Departamento Legal.\n\n   "
+    },
+    {
+      "date": "A\u00f1o 1975",
+      "description": "El Acuerdo 20 crea el Departamento Penal, y el de Vigilancia Administrativa y Judicial, para atender las quejas que los ciudadanos formulaban sobre funcionarios municipales y practicar investigaciones en las respectivas dependencias del municipio."
+    },
+    {
+      "date": "A\u00f1o 1984",
+      "description": "El Decreto 01 de 1984, establece que, las personer\u00edas se encargar\u00e1n de instruir debidamente a toda persona en formulaci\u00f3n del derecho de petici\u00f3n, as\u00ed como de oficiar como Ministerio P\u00fablico en los procesos penales de competencia de los jueces municipales."
+    },
+    {
+      "date": "A\u00f1o 1986",
+      "description": "A esto se le agregaron las estipulaciones del\nC\u00f3digo de R\u00e9gimen Municipal, establecido en el\nDecreto 1333 de 1986, que indic\u00f3 que el\npersonero deba velar por el cumplimiento de la\nConstituci\u00f3n, Leyes, Ordenanzas, Acuerdos y\n\u00f3rdenes superiores en su respectivo municipio,\ny su correcto cumplimiento por parte de los\nfuncionarios p\u00fablicos."
+    },
+    {
+      "date": "A\u00f1o 1990",
+      "description": "La Ley 3 de 1990 modific\u00f3 este Decreto 1333, estableciendo las personer\u00edas como agentes del Ministerio P\u00fablico y defensoras de los derechos humanos, y la vigilancia de la eficacia y continuidad de los servicios p\u00fablicos y su equitativa distribuci\u00f3n social.\n\n  "
+    },
+    {
+      "date": "A\u00f1o 1992",
+      "description": "Con el acuerdo municipal 17 de 1992 se crea en la Personer\u00eda de Medell\u00edn el grupo de Contrataci\u00f3n Administrativa, con el objetivo de vigilar la contrataci\u00f3n en la Administraci\u00f3n Municipal."
+    },
+    {
+      "date": "A\u00f1o 1994",
+      "description": "Con la Ley 136 de 1994, se reestructuran las funciones de las personer\u00edas, e indica que \u00e9stas son entidades encargadas de la guarda y promoci\u00f3n de\u00a0 los derechos humanos, protecci\u00f3n del inter\u00e9s p\u00fablico y la vigilancia de la conducta oficial de quienes desempe\u00f1an funciones p\u00fablicas.\n\n "
+    },
+    {
+      "date": "A\u00f1o 1995",
+      "description": "El acuerdo 41 de 1995 ratific\u00f3 esta naturaleza para la Personer\u00eda de Medell\u00edn Estableci\u00f3 que el auxiliar del personero se denominara en adelante Personero Auxiliar.\nSe crearon los cargos de: Personeros Delegados en Penal, Vigilancia Administrativa y Judicial, Participaci\u00f3n Ciudadana, Medio Ambiente,\nDerechos Humanos y Contrataci\u00f3n Estatal."
+    },
+    {
+      "date": "A\u00f1o 1998",
+      "description": "El acuerdo 57 de 1998, suprimi\u00f3 los cargos que se crearon en acuerdo 41 de 1995 y se crearon las Unidades:\u00a0\nGuarda y Promoci\u00f3n de los Derechos Humanos\nProtecci\u00f3n del Inter\u00e9s P\u00fablico\nVigilancia de la Conducta Oficial\nUnidad de Gesti\u00f3n a la Personer\u00eda Auxiliar"
+    },
+    {
+      "date": "A\u00f1o 2001",
+      "description": "Creaci\u00f3n de la Unidad Permanente para los Derechos humanos\ncon atenci\u00f3n al p\u00fablico las 24 horas del d\u00eda los 7 d\u00edas a la semana.\nLa UPDH fue cerrada en 2003 y reabierta en 2005"
+    },
+    {
+      "date": "A\u00f1o 2002",
+      "description": "Para dar aplicaci\u00f3n a la Ley 617 del a\u00f1o 2000 la entidad asumi\u00f3 su proceso de reestructuraci\u00f3n. Esta Ley normatiz\u00f3 la descentralizaci\u00f3n y racionalizaci\u00f3n del gasto p\u00fablico nacional.\n\n\nEl acuerdo municipal 08 de 2002 determin\u00f3 que dentro de la planta de cargos debe estar conformada por 100 empleados."
+    },
+    {
+      "date": "A\u00f1o 2003",
+      "description": "Primer Centro de Conciliaciones del pa\u00eds\n\nCon resoluci\u00f3n 550 del a\u00f1o 2003 expedido por el Ministro del Interior y de Justicia se autoriza el funcionamiento del Centro de Conciliaci\u00f3n de la Personer\u00eda Distrital de Medell\u00edn.\n\nInici\u00f3 actividades con 6 mujeres y un hombre.\nEl 11 de junio del 2003 se gestion\u00f3 la primera conciliaci\u00f3n.\n\n   "
+    },
+    {
+      "date": "A\u00f1o 2021",
+      "description": "Con el estallido social, acompa\u00f1amos las marchas para garantizar los derechos de la poblaci\u00f3n.\n\n  "
+    },
+    {
+      "date": "A\u00f1o 2021",
+      "description": "Resoluci\u00f3n N. 423 del 13 de octubre del 2021\n\n\nSe crea esta resoluci\u00f3n en la Personer\u00eda Distrital de Medell\u00edn para reconocer el trabajo que realizan e la guarda, promoci\u00f3n y defensa de los derechos humanos\n\nSe institucionaliza con\u2026\n\n\nAcuerdo Municipal 080 del 2023\n\n\nEntendiendo la importancia de la labor que ejercen los defensores y defensoras de Derechos humanos, la Personer\u00eda Distrital de Medell\u00edn, present\u00f3 proyecto de acuerdo el cual fue aprobado por el Concejo de Medell\u00edn, tal y como consta en Acta de Plenaria 644 del 08 de junio de 2023.\n\n  \u00a0 \u00a0"
+    },
+    {
+      "date": "A\u00f1o 2022",
+      "description": "Reapertura de la UPDH Casa de Justicia El Bosque\n\nEsta sede fue restaurada por completo luego de ser vandalizada 7 veces y destruida en el marco del estallido social en mayo de 2021.\n\n "
+    },
+    {
+      "date": "A\u00f1o 2022",
+      "description": "Creaci\u00f3n de la Unidad M\u00f3vil\n\nPara acercar la institucionalidad al territorio, creamos la Unidad M\u00f3vil de Derechos Humanos con el objetivo de recorrer las diferentes zonas y barrios de la ciudad para brindar servicios y asesor\u00edas a la comunidad de la mano del personal de apoyo de esta entidad.\n\nEntr\u00f3 en funcionamiento en noviembre 25 de 2022\n\n      \u00a0"
+    },
+    {
+      "date": "Siglo XXI",
+      "description": "Esta entidad se perfila como un referente a nivel internacional en la guarda, promoci\u00f3n, defensa de los derechos humanos, vigilancia de la conducta oficial y la protecci\u00f3n al inter\u00e9s p\u00fablico."
+    }
+  ],
+  "business_ethics": [
+    {
+      "topic": "Frente a la comunidad",
+      "items": [
+        " Respeto, responsabilidad, diligencia y comprensi\u00f3n de la ciudadan\u00eda.",
+        " Reconocimiento a la diversidad cultural, promoci\u00f3n de sus derechos y fomento e impulso de las diferentes forams de participaci\u00f3n.",
+        " Prioridad del inter\u00e9s general sobre los intereses particulares."
+      ]
+    },
+    {
+      "topic": "Frente a las entidades",
+      "items": [
+        " Responsabilidad y transparencia en la rendici\u00f3n de informes y conceptos de objetivos que redunden hacia el bien com\u00fan.",
+        " Proyecci\u00f3n de una imagen positiva de la funci\u00f3n p\u00fablica.",
+        " Fortalecimiento de la autonom\u00eda institucional."
+      ]
+    },
+    {
+      "topic": "Frente a los proveedores",
+      "items": [
+        " Transparencia y confiabilidad en los procesos de adquisi\u00f3n de bienes y servicios.",
+        " Oportunidad en el cumplimiento en las obligaciones pactadas.",
+        " Suministrar informaci\u00f3n sobre el SGC."
+      ]
+    },
+    {
+      "topic": "Frente a los servidores",
+      "items": [
+        " Respeto por su integridad y diversidad.",
+        " Reconocimiento a sus m\u00e9ritos personales y profesionales.",
+        " Fomento al desarrollo de sus valores y aplicaci\u00f3n de programas de bienestar social.",
+        " Gesti\u00f3n de un propicio clima laboral.",
+        " Desarrollo y mejoramiento de sus competencias laborales.",
+        " Promoci\u00f3n de la unidad familiar y sus derechos, como n\u00facleo de la sociedad."
+      ]
+    }
+  ],
+  "business_objectives": null,
+  "business_services": [
+    {
+      "name": "Acci\u00f3n de tutela",
+      "description": "<p style=\"line-height: 1.8;\"><span style=\"font-size: 14px;\">Es un mecanismo de defensa judicial, mediante el cual toda persona, puede reclamar ante los jueces, en todo momento y lugar, la protecci\u00f3n inmediata de sus derechos constitucionales fundamentales, cuando estos resulten vulnerados o amenazados por la acci\u00f3n u omisi\u00f3n de las autoridades p\u00fablicas o de los particulares en algunos casos.</span></p><p style=\"line-height: 1.8;\"><span style=\"font-size: 14px;\"><br></span></p><p style=\"line-height: 1.8;\"><span style=\"font-size: 14px;\">  </span></p><div style=\"line-height: 1.8;\"><span style=\"font-size: 14px;\">  </span></div><div style=\"line-height: 1.8;\"><span style=\"font-size: 14px;\"><b>Requisitos m\u00ednimos para prestar el servicio de Acci\u00f3n de Tutela</b></span></div><ul><li style=\"line-height: 1.8;\"><span style=\"font-size: 14px;\">Descripci\u00f3n de la acci\u00f3n o la omisi\u00f3n de la entidad accionada que motiva la acci\u00f3n</span></li><li style=\"line-height: 1.8;\"><span style=\"font-size: 14px;\">Identificaci\u00f3n del derecho(s) Fundamental(es) que se considera vulnerado o amenazado</span></li><li style=\"line-height: 1.8;\"><span style=\"font-size: 14px;\">El nombre de la autoridad p\u00fablica o del particular que presuntamente vulner\u00f3 o amenaz\u00f3 el derecho fundamental si fuere posible</span></li><li style=\"line-height: 1.8;\"><span style=\"font-size: 14px;\">La descripci\u00f3n de las dem\u00e1s circunstancias relevantes para decidir la solicitud, como lo son, el nombre, lugar de residencia o direcci\u00f3n de notificaci\u00f3n del solicitante y el juramento de que no se ha presentado otra acci\u00f3n de tutela por los mismos hechos.</span></li><li style=\"line-height: 1.8;\"><span style=\"font-size: 14px;\">Es recomendable aportar el correo electr\u00f3nico de quien la formula.</span></li></ul><p></p>",
+      "response_time": "2 d\u00edas h\u00e1biles "
+    }
+  ],
+  "business_fqa": [
+    {
+      "question": "\u00bfQu\u00e9 es NNA?",
+      "response": "Ni\u00f1os, Ni\u00f1as y Adolescentes."
+    },
+    {
+      "question": "\u00bfQu\u00e9 ley protege los NNA en Colombia?",
+      "response": "Ley 1098 de 2006, Ley de Infancia y Adolescencia."
+    },
+    {
+      "question": "\u00bfQu\u00e9 hace la personer\u00eda distrital de Medell\u00edn, respecto a ni\u00f1os, ni\u00f1as y adolescentes?",
+      "response": "La Personer\u00eda Distrital de Medell\u00edn, busca Proteger los derechos de los Ni\u00f1os, Ni\u00f1as\u00a0 y Adolescentes, implementando las acciones a que haya lugar y que est\u00e9n a cargo de la entidad como:Promoci\u00f3n de los Derechos y las Responsabilidades para la protecci\u00f3n integral de los NNA.Activaci\u00f3n de rutas de ser necesario.Asesorar a quien lo requiera.Verificar el cumplimiento efectivo de las obligaciones y/o funciones asignadas a cada dependencia del Distrito."
+    },
+    {
+      "question": "\u00bfQu\u00e9 se hace desde la personer\u00eda distrital por los j\u00f3venes, la familia y las mujeres?",
+      "response": "Como dice la parte misional de la Personer\u00eda, desde la entidad velamos por la guarda y promoci\u00f3n de los Derechos de las Personas, buscando siempre convivencia en los entornos. Para ello, en caso de conocer alguna vulneraci\u00f3n, procedemos a activar rutas, a acompa\u00f1ar a las personas en la b\u00fasqueda de soluci\u00f3n a sus situaciones y a verificar con las entidades competentes, si se esta prestando un servicio efectivo."
+    },
+    {
+      "question": "\u00bfC\u00f3mo solicitar apoyo de la personer\u00eda distrital de Medell\u00edn?",
+      "response": "Si tiene o conoce un caso de vulneraci\u00f3n de Derechos de Ni\u00f1os, Ni\u00f1as, Adolescentes, J\u00f3venes, Familia o Mujeres, debe de enviarnos la petici\u00f3n o queja al correo:\u00a0info@personeriamedellin.gov.coLlamarnos al tel. 6043849999"
+    },
+    {
+      "question": "\u00bfQu\u00e9 son pol\u00edticas p\u00fablicas?",
+      "response": "Proceso de planeaci\u00f3n que define una visi\u00f3n de largo plazo, que sobrepasa los periodos de administraci\u00f3n de los gobiernos y orienta el proceso de cambio frente a realidades sociales relevantes.Una decisi\u00f3n determinada por el gobierno para (i) abordar los desaf\u00edos socioecon\u00f3micos en un pa\u00edsInstrumentos que permiten construir respuestas que permiten incidir favorablemente en la vida y los territorios."
+    },
+    {
+      "question": "\u00bfQu\u00e9 se hace desde la personer\u00eda distrital de Medell\u00edn respecto a las pol\u00edticas p\u00fablicas?",
+      "response": "Se hace seguimiento a las diferentes pol\u00edticas p\u00fablicas poblacionales del Distrito, con la participaci\u00f3n en mesas, comit\u00e9s y dem\u00e1s organismos encargados de la protecci\u00f3n de derechos, adem\u00e1s de intervenir, apoyar, sugerir, acompa\u00f1ar, vigilar y/o controlar la puesta en marcha de las mismas pol\u00edticas p\u00fablicas desde las diferentes instituciones del Estado, verificando que se cumpla efectivamente con las obligaciones y/o funciones asignadas a cada dependencia."
+    },
+    {
+      "question": "\u00bfQu\u00e9 hacer como ciudadano si conozco del no cumplimiento de una pol\u00edtica p\u00fablica en el distrito de Medell\u00edn?",
+      "response": "Si conoce un caso de inaplicaci\u00f3n o incumplimiento de una de las Pol\u00edticas P\u00fablicas del Distrito de Medell\u00edn, debe de enviarnos la petici\u00f3n o queja al correo:info@personeriamedellin.gov.coLlamarnos al tel. 6043849999"
+    },
+    {
+      "question": "\u00bfQu\u00e9 es un Conciliador?",
+      "response": "Es un tercero neutral e imparcial que act\u00faa, siempre habilitado por las partes, facilitando el di\u00e1logo entre ellas y promoviendo f\u00f3rmulas de acuerdo que permitan llegar a soluciones satisfactorias para ambas partes. El conciliador es abogado capacitado en conciliaci\u00f3n."
+    },
+    {
+      "question": "\u00bfQu\u00e9 debo hacer para conciliar?",
+      "response": "Partiendo de la existencia de un conflicto las partes pueden acudir a un centro de conciliaci\u00f3n, abogado conciliador, funcionario P\u00fablico conciliador o notario, de com\u00fan acuerdo o unilateralmente; la forma de solicitud de la audiencia de conciliaci\u00f3n puede variar seg\u00fan el conciliador, pero en t\u00e9rminos generales se trata de un escrito que debe contener los hechos y lo que se pretende conseguir en la conciliaci\u00f3n, valga decir unas pretensiones.."
+    },
+    {
+      "question": "\u00bfPara qu\u00e9 se concilia?",
+      "response": "La conciliaci\u00f3n es un medio alternativo de soluci\u00f3n de conflictos \u00e1gil y econ\u00f3mico en t\u00e9rminos de tiempo y dinero, adem\u00e1s es una alternativa que no es desgastante para las partes ya que no van a tener que estar acudiendo a un juzgado en repetidas ocasiones, sino que en una sola o tres cesiones van a solucionar los conflictos."
+    },
+    {
+      "question": "\u00bfEn d\u00f3nde se consagra la conciliaci\u00f3n cuando hay acuerdo?",
+      "response": "Cuando se llega a un acuerdo se debe expedir por parte del conciliador un acta que debe contener unos requisitos b\u00e1sicos como identificaci\u00f3n de las partes; lugar, fecha y hora de la audiencia; identificaci\u00f3n del conciliador; hechos que originaron el conflicto; y el acuerdo con indicaci\u00f3n de la cuant\u00eda y el modo en que se van a cumplir las obligaciones emanadas de dicho acuerdo."
+    },
+    {
+      "question": "\u00bfC\u00f3mo se actualiza el acta?",
+      "response": "Esto se refiere a las obligaciones peri\u00f3dicas que emanan del acta, por ejemplo, en las que tratan de alimentos, es muy importante que en al acta se diga de qu\u00e9 manera se va a actualizar el valor de la cuota alimentaria, por lo general se actualizan a\u00f1o por a\u00f1o de acuerdo a factores como el \u00edndice de precios al consumidor o el aumento del salario m\u00ednimo mensual. De no expresarse en el acta la forma de actualizarse las obligaciones peri\u00f3dicas, la suma ser\u00e1 est\u00e1tica en perjuicio de la parte a favor de quien se paga la cuota."
+    },
+    {
+      "question": "\u00bfCu\u00e1nto dura el acuerdo?",
+      "response": "El acuerdo hace tr\u00e1nsito a cosa juzgada y por tal, lo que all\u00ed se consigne debe cumplirse; es diferente tambi\u00e9n en el tema de alimentos ya que aquellos acuerdos sobre estos, hacen tr\u00e1nsito a cosa juzgada formal en raz\u00f3n de que las circunstancias que dieron lugar a la fijaci\u00f3n de la cuota puede cambiar y en el momento que se solicite se puede modificar el acuerdo. El acuerdo tambi\u00e9n dura hasta que las partes de com\u00fan acuerdo decidan cambiarlo por otro."
+    },
+    {
+      "question": "\u00bfQu\u00e9 pasa si no se cumple el acuerdo?",
+      "response": "El acta de conciliaci\u00f3n presta m\u00e9rito ejecutivo, por tal raz\u00f3n, en el evento de incumplimiento, la parte que se ve perjudicada puede acudir directamente a la jurisdicci\u00f3n mediante el proceso ejecutivo, para que se haga cumplir el acuerdo."
+    },
+    {
+      "question": "\u00bfLos conciliadores pueden actuar independientemente o deben vincularse a un Centro de Conciliaci\u00f3n?",
+      "response": "Los conciliadores no pueden actuar independientemente, si se trata de abogado conciliador debe vincularse a un centro de conciliaci\u00f3n, los conciliadores de consultorios jur\u00eddicos lo har\u00e1n a trav\u00e9s del centro de conciliaci\u00f3n del consultorio, los notarios a trav\u00e9s de la notar\u00eda."
+    },
+    {
+      "question": "\u00bfC\u00f3mo se realiza la citaci\u00f3n a la audiencia?",
+      "response": "La citaci\u00f3n a la audiencia deber\u00e1 comunicarse a las partes por el medio que el conciliador considere m\u00e1s expedito y eficaz, indicando sucintamente el objeto de la conciliaci\u00f3n e incluyendo la menci\u00f3n a las consecuencias jur\u00eddicas de la no comparecencia."
+    },
+    {
+      "question": "\u00bfQu\u00e9 pasa si solicito la audiencia y no asisto?",
+      "response": "si las partes o alguna de ellas no asiste a la audiencia y no justifica su inasistencia dentro de los tres d\u00edas siguientes, su conducta podr\u00e1 ser considerada como indicio grave en contra de sus pretensiones o de sus excepciones de m\u00e9rito en un eventual proceso judicial que verse sobre los mismos hechos."
+    },
+    {
+      "question": "\u00bfQu\u00e9 ocurre ante la imposibilidad justificada de asistir a la audiencia en la fecha programada?",
+      "response": "Cuando circunstancias constitutivas de fuerza mayor o caso fortuito impidan a alguno de los interesados acudir a la correspondiente sesi\u00f3n, deber\u00e1 informarlo as\u00ed a m\u00e1s tardar dentro de los tres (3) d\u00edas siguientes a la fecha en que deb\u00eda o se celebr\u00f3 la audiencia. En el evento en que se justifique la inasistencia con base en las mencionadas circunstancias y est\u00e9n debidamente acreditadas se podr\u00e1 fijar nuevamente fecha y hora para la realizaci\u00f3n de la audiencia de conciliaci\u00f3n."
+    },
+    {
+      "question": "\u00bfQu\u00e9 ocurre con el tr\u00e1mite de conciliaci\u00f3n cuando se presenta la inasistencia de las partes?",
+      "response": "Si hecha la citaci\u00f3n para la audiencia ambas o una de las partes no comparece el conciliador dejar\u00e1 constancia en el acta de su inasistencia e informar\u00e1 que dentro de los tres (3) d\u00edas siguientes la parte podr\u00e1 justificar su no comparecencia, Finalizado dicho t\u00e9rmino sin que se justifique la inasistencia se entender\u00e1 que no existe \u00e1nimo conciliatorio, lo que se har\u00e1 constar expresamente por el conciliador quien dar\u00e1 por agotada la etapa conciliatoria y expedir\u00e1 la correspondiente constancia."
+    },
+    {
+      "question": "\u00bfQu\u00e9 servicios puedo encontrar en la Personer\u00eda de Medell\u00edn?",
+      "response": "\u2013 Acci\u00f3n de tutela\u2013 Impugnaci\u00f3n de fallo de tutela, reiteraci\u00f3n de solicitud de apertura de incidente de desacato, incidente de desacato\u2013 Conciliaci\u00f3n extrajudicial en derecho civil \u2013 comercial \u2013 familiar. (En materia laboral y administrativo no somos competentes)\u2013 Revisi\u00f3n del proceso penal (fiscal\u00edas locales y juzgados penales municipales) y restablecimiento de derechos de Ni\u00f1os, Ni\u00f1as, Adolescentes y adultos mayores\u2013 Reclamaci\u00f3n derechos del consumidor\u2013 Elaboraci\u00f3n escrito derecho de petici\u00f3n\u2013 Declaraci\u00f3n bajo juramento y/o quejas contra servidores p\u00fablicos\u2013 Asesor\u00eda\u2013 Revisi\u00f3n de procesos contravencionales de polic\u00eda y comisar\u00eda\u2013 Solicitud de estudio de acciones constitucionales (acciones de grupo, populares, cumplimiento)\u2013 Interposici\u00f3n de recursos (reposici\u00f3n y apelaci\u00f3n por no inclusi\u00f3n como desplazado o por no reconocimiento de reparaci\u00f3n administrativa como v\u00edctima, Decreto 1290 de 2008 y Ley 1448 de 2011)\u2013 Declaraci\u00f3n de desplazados\u2013 Solicitud de protecci\u00f3n y cancelaci\u00f3n de tierras\u2013 Personer\u00eda en L\u00ednea. (Un medio f\u00e1cil, efectivo y a un click desde cualquier lugar)"
+    },
+    {
+      "question": "\u00bfCu\u00e1nto cuestan los servicios de la Personer\u00eda?",
+      "response": "Todos los servicios ofrecidos por la Personer\u00eda de Medell\u00edn son gratuitos."
+    },
+    {
+      "question": "\u00bfCu\u00e1les son los puntos de atenci\u00f3n y horarios de la Personer\u00eda?",
+      "response": "\u2013 Sede Principal: Centro Cultural Plaza la Libertad, carrera 53A # 42 \u2013 10. Contigua al Centro Administrativo La Alpujarra.Horario: Lunes a viernes 7:00 a.m. \u2013 4:00 p.m.\u00a0\u2013 Unidad Permanente para los Derechos Humanos \u2013UPDH-: Casa de Justicia El Bosque, carrera 52 # 71 \u2013 84.Horario: 24 horas / 7 d\u00edas de la semana.\u00a0\u2013 Casa de Gobierno San Antonio de Prado: Carrera 79 # 41 sur \u2013 36Horario: Lunes a viernes 7:30 a.m. \u2013 4:00 p.m.\u00a0\u2013 Casa de Gobierno Santa Elena: Calle 10 # 40 este \u2013 44Horario: Lunes, mi\u00e9rcoles y viernes 7:30 a.m. \u2013 4:00 p.m.\u00a0\u2013 Casa de Gobierno Altavista: Calle 18 # 105 sur \u2013 69Lunes a viernes 7:30 a.m. \u2013 4:00 p.m.\u00a0\u2013 Casa de Gobierno San Crist\u00f3bal: Carrera 131 # 60 \u2013 59Lunes, mi\u00e9rcoles y viernes 7:30 a.m. \u2013 4:00 p.m.\u00a0\u2013 Casa de Gobierno San Sebasti\u00e1n de Palmitas: Calle 20 # 35 \u2013 114Segundo y tercer domingo de cada mes 7:30 a.m. \u2013 4:00 p.m.\u00a0\u2013 Casa de Justicia Robledo: Diagonal 85 \u00b7 79 \u2013 173Martes y jueves 7:30 a.m. \u2013 4:00 p.m.\u00a0\u2013 Casa de Justicia 20 de Julio: Calle 39 # 109 \u2013 24Lunes a viernes 7:30 a.m. \u2013 4:00 p.m.\u00a0\u2013 Casa de Justicia Santo Domingo: Carrera 32 # 101 \u2013 283Lunes, jueves y viernes 7:30 a.m. \u2013 4:00 p.m.\u00a0\u2013 Casa de Justicia Santa Cruz: Calle 104 B # 48 \u2013 60Martes y mi\u00e9rcoles 7:30 a.m. \u2013 4:00 p.m."
+    },
+    {
+      "question": "\u00bfQu\u00e9 es Personer\u00eda en L\u00ednea?",
+      "response": "Plataforma digital que naci\u00f3 con la idea de optimizar la gesti\u00f3n virtual de la Personer\u00eda de Medell\u00edn, encaminada a proteger los derechos humanos y los intereses de la sociedad."
+    },
+    {
+      "question": "\u00bfA qu\u00e9 servicios puede acceder el ciudadano en Personer\u00eda en L\u00ednea?",
+      "response": "Adem\u00e1s de tutela de salud en l\u00ednea, los ciudadanos podr\u00e1n realizar procesos como incidente de desacato, derecho de petici\u00f3n, solicitar atenci\u00f3n domiciliaria para aquellos que por condiciones de salud o situaci\u00f3n de discapacidad se les dificulta el traslado a las sedes de la Personer\u00eda, \u00a0solicitar el servicio de reacci\u00f3n inmediata para los casos de explotaci\u00f3n, maltrato o abandono de Adultos Mayores,\u00a0 Ni\u00f1os, Ni\u00f1as y Adolescentes o seres sintientes, tambi\u00e9n se podr\u00e1 consultar en l\u00ednea el estado de su caso, adicional a todo lo anterior se habilit\u00f3 asesor\u00eda jur\u00eddica para el servicio del ciudadano."
+    },
+    {
+      "question": "\u00bfA qu\u00e9 informaci\u00f3n de la Entidad puede acceder la ciudadan\u00eda?",
+      "response": "A toda informaci\u00f3n que no tenga reserva establecida en la ley, lo cual significa que la restricci\u00f3n al acceso deber\u00e1 estar contemplada en norma legal o constitucional."
+    },
+    {
+      "question": "\u00bfA qu\u00e9 funcionarios p\u00fablicos investiga la Personer\u00eda de Medell\u00edn?",
+      "response": "La Personer\u00eda ejerce vigilancia de la conducta oficial de quienes desempe\u00f1an funciones p\u00fablicas municipales; excepto:AlcaldesContralor MunicipalConcejales"
+    },
+    {
+      "question": "\u00bfCu\u00e1ndo abren inscripciones para los diplomados de la Personer\u00eda de Medell\u00edn?",
+      "response": "Los programas de formaci\u00f3n ofrecidos por la Unidad para la Protecci\u00f3n del Inter\u00e9s P\u00fablico UPIP son abiertos dos veces al a\u00f1o. Para inscribirse se debe estar atento a las publicaciones que se realizan en las redes sociales de la entidad en el primer y segundo semestre."
+    },
+    {
+      "question": "\u00bfCu\u00e1les son los requisitos para la reparaci\u00f3n de v\u00edctimas?",
+      "response": "Los requisitos que se deben aportar son:Copia del registro de nacimiento y registro de defunci\u00f3n de la v\u00edctima.Copia del certificado expedido por la Fiscal\u00edaCopia del documento de Identidad de la persona que va a rendir la declaraci\u00f3n.La reparaci\u00f3n puede ser solicitada por:C\u00f3nyuge o compa\u00f1era permanente de la v\u00edctimaHijos de la v\u00edctimaA falta c\u00f3nyuge e hijos los padresA falta de padres hermanos"
+    },
+    {
+      "question": "\u00bfD\u00f3nde est\u00e1 ubicado el Centro de Conciliaci\u00f3n de la Personer\u00eda?",
+      "response": "S\u00f3tano B de la Alcald\u00eda de Medell\u00edn. Carrea 53 A #42 \u2013 91. Frente al Centro C\u00edvico Plaza de la Libertad."
+    },
+    {
+      "question": "\u00bfCu\u00e1les son los requisitos para una conciliaci\u00f3n?",
+      "response": "Solicitante: nombre completo, direcci\u00f3n, tel\u00e9fono \u2013 celular, fotocopia de la c\u00e9dula, cuenta de servicios p\u00fablicos actualizados (estratos 1, 2 y 3), Sisb\u00e9n y direcci\u00f3n y tel\u00e9fono del representante legal.Convocados: nombre, direcci\u00f3n, tel\u00e9fono \u2013 celular, c\u00e1mara de comercio actualizada, certificados de las aseguradoras.* Nota: los usuarios convocantes deber\u00e1n ser poblaci\u00f3n desplazada, madre comunitaria, pertenecer a los estratos 1, 2 o 3, discapacitados, minor\u00eda \u00e9tnica, adultos mayores, padre o madre cabeza de familia sin capacidad econ\u00f3mica.* En caso de ser menores de edad: Registro Civil."
+    },
+    {
+      "question": "\u00bfEn qu\u00e9 horario se reciben las solicitudes de audiencias de conciliaci\u00f3n?",
+      "response": "Las solicitudes de audiencia de conciliaci\u00f3n se reciben de lunes a viernes de 7:30 a.m. a 12:00 m., hasta agotar diariamente los cupos disponibles."
+    },
+    {
+      "question": "\u00bfEs necesario que los documentos para radicar en correspondencia de la Personer\u00eda est\u00e9n foliados?",
+      "response": "S\u00ed, todos los documentos para radicar en correspondencia deben estar foliados con numeraci\u00f3n consecutiva incluyendo el original y los anexos. Tambi\u00e9n aplica para las conciliaciones."
+    },
+    {
+      "question": "\u00bfQu\u00e9 pasa si es negada mi solicitud de inclusi\u00f3n en el Registro \u00danico de V\u00edctimas \u2013RUV-?",
+      "response": "Usted podr\u00e1 interponer las acciones de car\u00e1cter legal que se se\u00f1alan a continuaci\u00f3n:El Recurso de Reposici\u00f3n. Este se puede interponer ante el funcionario de la Unidad para la Atenci\u00f3n y Reparaci\u00f3n Integral a las V\u00edctimas que dict\u00f3 la decisi\u00f3n, con la finalidad de que la aclare, modifique, adicione o revoque.El Recurso de Apelaci\u00f3n. Se interpone ante el superior jer\u00e1rquico de quien dict\u00f3 la decisi\u00f3n, es decir, ante el Director de la Unidad para la Atenci\u00f3n y la Reparaci\u00f3n Integral a las V\u00edctimas.El tiempo establecido para presentar los recursos de Reposici\u00f3n y Apelaci\u00f3n es dentro de los diez (10) d\u00edas siguientes a la notificaci\u00f3n de la decisi\u00f3n."
+    },
+    {
+      "question": "\u00bfQu\u00e9 es una acci\u00f3n de Tutela?",
+      "response": "La acci\u00f3n de Tutela es un mecanismo judicial a trav\u00e9s del cual se busca la protecci\u00f3n de los derechos fundamentales de las personas, cuando \u00e9stos se ven amenazados o vulnerados por las entidades p\u00fablicas o por los particulares."
+    },
+    {
+      "question": "\u00bfQu\u00e9 puedo hacer si no se cumple con lo ordenado en el fallo de tutela?",
+      "response": "Puede recurrir a un instrumento jur\u00eddico denominado: incidente de desacato, a trav\u00e9s del cual se pretende presionar al cumplimiento inmediato de la orden impartida por el juez constitucional. Para ello deber\u00e1 radicar ante el despacho del juez que fall\u00f3 la acci\u00f3n de tutela, un documento en el que se ponga de presente el incumplimiento del fallo, haciendo referencia espec\u00edfica a las pruebas que se tienen. Aunque para la elaboraci\u00f3n del documento no se requiere abogado, ni ning\u00fan tipo de formalismo, si es su inter\u00e9s, puede acercarse a la Personer\u00eda de Medell\u00edn, a fin de que se le asista."
+    },
+    {
+      "question": "\u00bfCu\u00e1nto tiempo tiene el juez para resolver mi acci\u00f3n de tutela?",
+      "response": "Diez (10) d\u00edas h\u00e1biles."
+    },
+    {
+      "question": "\u00bfQu\u00e9 es el derecho de petici\u00f3n?",
+      "response": "El derecho de petici\u00f3n es un derecho fundamental (art. 23 Constituci\u00f3n Pol\u00edtica) que tenemos todas las personas de presentar peticiones respetuosas, a las autoridades, por motivos de inter\u00e9s general o particular y de obtener una respuesta oportuna. Excepcionalmente procede ante organizaciones privadas o particulares."
+    },
+    {
+      "question": "\u00bfQu\u00e9 puedo solicitar mediante el ejercicio del derecho de petici\u00f3n?",
+      "response": "Usted podr\u00e1 elevar cualquier tipo de solicitud mientras la misma se haga en t\u00e9rminos respetuosos. De acuerdo con la Ley, entre otras actuaciones, podr\u00e1 solicitar el reconocimiento de un derecho, que se le resuelva una situaci\u00f3n jur\u00eddica, se le preste un servicio, se le otorgue informaci\u00f3n, se le suministren copias de documentos, formular consultas, presentar recursos, quejas, denuncias o reclamos."
+    },
+    {
+      "question": "\u00bfCu\u00e1nto tiempo debo esperar para que mi petici\u00f3n sea resuelta?",
+      "response": "Salvo norma legal especial toda petici\u00f3n deber\u00e1 resolverse dentro de los quince (15) d\u00edas h\u00e1biles siguientes a su recepci\u00f3n."
+    },
+    {
+      "question": "\u00bfQu\u00e9 es la restituci\u00f3n de tierras?",
+      "response": "Es el derecho que tienen las V\u00edctimas del Conflicto Armado a que se les devuelva las tierras que les fueron despojadas o abandonadas forzosamente (entre el 1 de enero de 1991 hasta el 10 de junio de 2021), como consecuencia de violaciones a los Derechos Humanos o infracciones al Derecho Internacional Humanitario. Los bienes muebles (animales, cultivos, enseres, maquinaria, entre otros) no son objeto de restituci\u00f3n en el marco de la Ley 1448 de 2011. La Restituci\u00f3n de Tierras hace parte de las medidas de Reparaci\u00f3n Integral que contempla la Ley de V\u00edctimas."
+    },
+    {
+      "question": "\u00bfQui\u00e9nes tienen derecho a la restituci\u00f3n de tierras?",
+      "response": "Las personas propietarias o poseedoras de predios o explotadoras de bald\u00edos, que hayan sido o sean v\u00edctimas del despojo o abandono forzado de sus tierras, a causa del Conflicto Armado."
+    },
+    {
+      "question": "\u00bfCu\u00e1l es la competencia de la Personer\u00eda frente a las v\u00edctimas de conflicto armado?",
+      "response": "La Personer\u00eda de Medell\u00edn, como agente del Ministerio P\u00fablico, tiene el deber de diligenciar el Formato \u00danico de Declaraci\u00f3n (FUD), para aquellas personas que pretendan ser incluidas en el Registro \u00danico de V\u00edctimas y enviarlo de manera oportuna a la Unidad para la Atenci\u00f3n y Reparaci\u00f3n Integral a las V\u00edctimas, quien es la autoridad competente para decidir sobre las solicitudes de inclusi\u00f3n. Adicionalmente la personer\u00eda en su condici\u00f3n de garante de derechos fundamentales, le orientar\u00e1 y asistir\u00e1 con los tr\u00e1mites relacionados con su condici\u00f3n de v\u00edctima."
+    },
+    {
+      "question": "\u00bfSi soy v\u00edctima del conflicto armado \u00bfdebo prestar servicio militar obligatorio?",
+      "response": "No. La ley 1448 de 2011 en su art\u00edculo 140 contempla la exenci\u00f3n del servicio militar, para las personas reconocidas como v\u00edctimas del conflicto armado, sin embargo Usted tiene la obligaci\u00f3n de inscribirse y adelantar los tr\u00e1mites para resolver su situaci\u00f3n militar, dentro de los cinco a\u00f1os siguientes a la promulgaci\u00f3n de la ley (si los hechos victimizantes ocurrieron con anterioridad a la misma), o la ocurrencia del hecho victimizante."
+    },
+    {
+      "question": "\u00bfQu\u00e9 debo hace hacer el usuario para que en la Personer\u00eda de Medell\u00edn le realicen estudio y/o elaboraci\u00f3n de una acci\u00f3n constitucional o legal (de inconstitucionalidad, nulidad simple, de tutela, de cumplimiento, popular o coadyuvancia)?",
+      "response": "El usuario debe radicar ya sea a trav\u00e9s de la taquilla f\u00edsica o por info, la\u00a0solicitud\u00a0de estudio\u00a0aportando los documentos, por ejemplo, en la acci\u00f3n popular haber solicitado por escrito ante quien presuntamente vulnera el derecho de que cese la vulneraci\u00f3n, \u00a0y dem\u00e1s que considere pueden servirle de prueba, para que el abogado asignado analice la viabilidad o no de la acci\u00f3n."
+    },
+    {
+      "question": "\u00bfQu\u00e9 es la acci\u00f3n popular?",
+      "response": "La encontramos en el Art\u00edculo 88 de la Constituci\u00f3n pol\u00edtica: La Ley regular\u00e1 las acciones populares para\u00a0 la protecci\u00f3n de los derechos e intereses colectivos,\u00a0 relacionados con el patrimonio, el espacio, la seguridad y la salubridad p\u00fablicas, la moral administrativa, el ambiente, la libre competencia econ\u00f3mica y otros de\u00a0 similar naturaleza que se definan en ella.Definici\u00f3n.\u00a0 Son los medios procesales para la\u00a0 protecci\u00f3n de los derechos e\u00a0 intereses colectivos.Se ejercen para evitar el da\u00f1o\u00a0 contingente, hacer cesar el peligro, la\u00a0 amenaza, la vulneraci\u00f3n o agravio\u00a0 sobre los derechos e intereses\u00a0 colectivos, o restituir las cosas a su\u00a0 estado anterior cuando fuere posible."
+    },
+    {
+      "question": "\u00bfQu\u00e9 son derechos colectivos?",
+      "response": "Derechos colectivos. Son aquellos de los cuales somos todos titulares, sin distinci\u00f3n alguna, y\u00a0 cuyo disfrute pleno y normal nos corresponde en aras del bienestar, la salubridad, la\u00a0 convivencia y la calidad de vida.El goce de un ambiente sano, de conformidad con lo establecido en la Constituci\u00f3n, la ley y las disposiciones reglamentarias.La moralidad administrativa.La existencia del equilibrio ecol\u00f3gico y el manejo y aprovechamiento racional de los recursos naturales para garantizar su desarrollo sostenible, su conservaci\u00f3n, restauraci\u00f3n o sustituci\u00f3n.\u00a0 La conservaci\u00f3n de las especies animales y vegetales, la protecci\u00f3n de \u00e1reas de especial\u00a0 importancia ecol\u00f3gica, de los ecosistemas situados en las zonas fronterizas, as\u00ed\u00a0 como los\u00a0 dem\u00e1s intereses de la comunidad relacionados con la preservaci\u00f3n y restauraci\u00f3n del medio\u00a0 ambiente;El goce del espacio p\u00fablico y la utilizaci\u00f3n y defensa de los bienes de uso p\u00fablico.La defensa del patrimonio p\u00fablico.La defensa del patrimonio cultural de la Naci\u00f3n.La seguridad y salubridad p\u00fablicas.El acceso a una infraestructura de servicios que garantice la salubridad p\u00fablica.La libre competencia econ\u00f3mica.El acceso a los servicios p\u00fablicos y a que su prestaci\u00f3n sea eficiente y oportuna.La prohibici\u00f3n de la fabricaci\u00f3n, importaci\u00f3n, posesi\u00f3n, uso de armas qu\u00edmicas, biol\u00f3gicas y nucleares, as\u00ed como la introducci\u00f3n al territorio nacional de residuos nucleares o t\u00f3xicos.El derecho a la seguridad y prevenci\u00f3n de desastres previsibles t\u00e9cnicamente.La realizaci\u00f3n de las construcciones, edificaciones y desarrollos urbanos respetando las disposiciones jur\u00eddicas, de manera ordenada, y dando prevalencia al beneficio de la calidad de\u00a0 vida de los habitantes.Los derechos de los consumidores y usuarios. Igualmente son derechos e intereses colectivos los definidos como tales en la Constituci\u00f3n, las leyes ordinarias y los tratados de\u00a0 Derecho Internacional celebrados por Colombia.\u00bfQui\u00e9n la interpone?Toda persona natural o jur\u00eddica.Las Organizaciones No Gubernamentales, las Organizaciones Populares, C\u00edvicas\u00a0 o de \u00edndole similar.Las entidades p\u00fablicas que cumplan funciones de control, intervenci\u00f3n o vigilancia, siempre que la\u00a0 amenaza o vulneraci\u00f3n a los derechos e intereses\u00a0 colectivos no se haya originado en su acci\u00f3n u\u00a0 omisi\u00f3n.El Procurador General de la Naci\u00f3n, el Defensor del Pueblo y los Personeros Distritales y municipales, en lo\u00a0 relacionado con su competencia.Los alcaldes y dem\u00e1s servidores p\u00fablicos que por raz\u00f3n de sus funciones deban promover la protecci\u00f3n\u00a0 y defensa de estos derechos e intereses.\u00bfAnte qui\u00e9n?Seg\u00fan la Ley 472 de 1998Art\u00edculo 15\u00ba.- Jurisdicci\u00f3n. La jurisdicci\u00f3n de lo Contencioso Administrativo conocer\u00e1 de los procesos\u00a0 que se susciten con ocasi\u00f3n del ejercicio de las Acciones Populares originadas en actos, acciones y\u00a0 omisiones de las entidades p\u00fablicas y de las personas privadas que desempe\u00f1en funciones\u00a0 administrativas, de conformidad con lo dispuesto en las disposiciones vigentes sobre la materia.En los dem\u00e1s casos, conocer\u00e1 la jurisdicci\u00f3n ordinaria civil.Art\u00edculo 16\u00ba.- Competencia. De las Acciones Populares conocer\u00e1n en primera instancia los jueces\u00a0 administrativos y los jueces civiles de circuito. En segunda instancia la competencia corresponder\u00e1 a la\u00a0 secci\u00f3n primera del Tribunal Contencioso Administrativo o a la Sala Civil del Tribunal de Distrito Judicial\u00a0 al que pertenezca el Juez de primera instancia.Ser\u00e1 competente el juez del lugar de ocurrencia de los hechos o el del domicilio del demandado a\u00a0 elecci\u00f3n del actor popular. Cuando por los hechos sean varios los jueces competentes, conocer\u00e1 a\u00a0 prevenci\u00f3n el juez ante el cual se hubiere presentado la demanda."
+    },
+    {
+      "question": "\u00bfCu\u00e1ndo podr\u00e1 promoverse la Acci\u00f3n popular?",
+      "response": "Podr\u00e1 promoverse durante el tiempo que\u00a0 subsista la amenaza o peligro al derecho\u00a0 e inter\u00e9s colectivo."
+    },
+    {
+      "question": "\u00bfProcedencia de la Acci\u00f3n popular?",
+      "response": "Proceden contra toda acci\u00f3n u\u00a0 omisi\u00f3n de las autoridades p\u00fablicas o\u00a0 de los particulares, que hayan violado\u00a0 o amenacen violar los derechos e\u00a0 intereses colectivos."
+    },
+    {
+      "question": "\u00bfCu\u00e1l es el procedimiento de la acci\u00f3n popular?",
+      "response": "Presentaci\u00f3n de la demanda o petici\u00f3n\u00a0 con los requisitos: derecho o inter\u00e9s\u00a0 colectivo amenazado, hechos, actos,\u00a0 acciones u omisiones que motivaron la\u00a0 petici\u00f3n, pretensiones, persona natural o\u00a0 jur\u00eddica o autoridad p\u00fablica responsable\u00a0 de la amenaza, pruebas, etc.Pacto de cumplimiento (conciliaci\u00f3n).Fallo de sentencia (orden de hacer o no hacer)"
+    },
+    {
+      "question": "\u00bfCu\u00e1l es la ventaja de la acci\u00f3n popular?",
+      "response": "Permiten evitar el da\u00f1o contingente, -o\u00a0 hacer cesar el peligro, o la amenaza, o\u00a0 la vulneraci\u00f3n o los agravios sobre los\u00a0 derechos e intereses colectivos, -y/o\u00a0 restituir las cosas a su estado anterior,\u00a0 cuando fuere posible."
+    },
+    {
+      "question": "\u00bfD\u00f3nde encontramos la acci\u00f3n de cumplimiento?",
+      "response": "Constituci\u00f3n Pol\u00edtica de Colombia.Art\u00edculo 87:Toda persona podr\u00e1 acudir ante la autoridad\u00a0 judicial para hacer efectivo el cumplimiento\u00a0 de una ley o un acto administrativo. En caso\u00a0 de prosperar la acci\u00f3n, la sentencia ordenar\u00e1\u00a0 a la autoridad renuente el cumplimiento del\u00a0 deber omitido.Reglamentado:\u00a0 Ley 393 de 1997\u00a0"
+    },
+    {
+      "question": "\u00bfQu\u00e9 es la acci\u00f3n de cumplimiento?",
+      "response": "Es el mecanismo empleado para garantizar\u00a0 el cumplimiento de una ley o un acto\u00a0 administrativo."
+    },
+    {
+      "question": "\u00bfQui\u00e9n interpone la acci\u00f3n de cumplimiento?",
+      "response": "Cualquier persona natural o jur\u00eddica.Las organizaciones sociales.Las organizaciones no gubernamentales.El Procurador General de la Naci\u00f3n.El Defensor del Pueblo.El Contralor GeneralServidores p\u00fablicos."
+    },
+    {
+      "question": "\u00bfAnte qui\u00e9n?",
+      "response": "En primera instancia: JuecesEn segunda instancia: Tribunal Contencioso Administrativo.En tercera instancia: Consejo de EstadoSala Contencioso Administrativo"
+    },
+    {
+      "question": "\u00bfProcedencia de la acci\u00f3n de cumplimiento?",
+      "response": "Contra toda acci\u00f3n u omisi\u00f3n de la autoridad o los particulares que incumplan o ejecuten actos\u00a0 que permitan deducir incumplimiento de normas\u00a0 con fuerza de ley o actos administrativos.Se requiere que el accionante haya reclamado previamente el cumplimiento de la ley o acto\u00a0 administrativo y que la autoridad haya\u00a0 ratificado su incumplimiento o no contestado\u00a0 dentro de los 10 d\u00edas siguientes a la\u00a0 presentaci\u00f3n de la solicitud.Se puede interponer junto a una acci\u00f3n popular."
+    },
+    {
+      "question": "\u00bfCu\u00e1l es el procedimiento de la acci\u00f3n de cumplimiento?",
+      "response": "Se debe solicitar de manera escrita,\u00a0 excepcionalmente verbal (cuando el\u00a0 solicitante no sepa leer ni escribir, sea\u00a0 menor de edad o se encuentre en\u00a0 situaci\u00f3n de emergencia).La solicitud debe contener: nombre,\u00a0 determinaci\u00f3n de la norma incumplida,\u00a0 demandante, demandado, hechos,\u00a0 pruebas, entre otros."
+    },
+    {
+      "question": "\u00bfCu\u00e1l es el objetivo y el alcance del servicio de efectividad del derecho de petici\u00f3n?",
+      "response": "Garantizar el acceso eficaz y oportuno a la informaci\u00f3n que solicita ante cualquier entidad p\u00fablica e instituciones privadas, personas naturales y su alcance es recibir todos los derechos de petici\u00f3n elaborados en la Personer\u00eda Distrital de Medell\u00edn y las copias del derecho de petici\u00f3n allegados por cualquiera de nuestros canales, de forma electr\u00f3nica o por taquilla \u00fanica."
+    },
+    {
+      "question": "\u00bfQu\u00e9 hace efectividad del derecho de petici\u00f3n?",
+      "response": "Si ingres\u00f3 petici\u00f3n de efectividad dirigida a la entidad se le da una respuesta oportuna establecida por la ley y si es con copia a la entidad se procede a archivar el derecho de petici\u00f3n. Adem\u00e1s, si al usuario no le dan respuesta oportuna en donde radicado el derecho de petici\u00f3n se le realiza tutela por la no respuesta al derecho de petici\u00f3n. De otra parte, se hacen visitas de verificaci\u00f3n."
+    },
+    {
+      "question": "\u00bfCu\u00e1l es el t\u00e9rmino para que una entidad de respuesta al derecho de petici\u00f3n?",
+      "response": "efectividad del derecho fundamental de petici\u00f3n se encuentra consagrado en el Art\u00edculo 23 de la Constituci\u00f3n Pol\u00edtica y regulado por la ley 1755 de 2015.De acuerdo con la ley 1755 de 2015, los t\u00e9rminos para responder las solicitudes son: \u201cArt\u00edculo 14. T\u00e9rminos para resolver las distintas modalidades de peticiones. Salvo norma legal especial y so pena de sanci\u00f3n disciplinaria, toda petici\u00f3n deber\u00e1 resolverse dentro de los quince (15) d\u00edas siguientes a su recepci\u00f3n. Estar\u00e1 sometida a t\u00e9rmino especial la resoluci\u00f3n de las siguientes peticiones:Las peticiones de documentos y de informaci\u00f3n deber\u00e1n resolverse dentro de los diez (10) d\u00edas siguientes a su recepci\u00f3n. Si en ese lapso no se ha dado respuesta al peticionario, se entender\u00e1, para todos los efectos legales, que la respectiva solicitud ha sido aceptada y, por consiguiente, la administraci\u00f3n ya no podr\u00e1 negar la entrega de dichos documentos al peticionario, y como consecuencia las copias se entregar\u00e1n dentro de los tres (3) d\u00edas siguientesLas peticiones mediante las cuales se eleva una consulta a las autoridades en relaci\u00f3n con las materias a su cargo deber\u00e1n resolverse dentro de los treinta (30) d\u00edas siguientes a su recepci\u00f3n.Par\u00e1grafo. Cuando excepcionalmente no fuere posible resolver la petici\u00f3n en los plazos aqu\u00ed se\u00f1alados, la autoridad debe informar esta circunstancia al interesado, antes del vencimiento del t\u00e9rmino se\u00f1alado en la ley expresando los motivos de la demora y se\u00f1alando a la vez el plazo razonable en que se resolver\u00e1 o dar\u00e1 respuesta, que no podr\u00e1 exceder del doble del inicialmente previsto.\u201d"
+    },
+    {
+      "question": "\u00bfQu\u00e9 documentaci\u00f3n se necesita para presentar una tutela por la no respuesta al derecho de petici\u00f3n?",
+      "response": "Se necesita el derecho de petici\u00f3n con el respectivo recibido de la entidad ante qui\u00e9n se dirigi\u00f3 la petici\u00f3n, la Cedula de ciudadan\u00eda y, si en derecho de petici\u00f3n en las pruebas aporto m\u00e1s documentaci\u00f3n debe tambi\u00e9n de aportarla para la presentaci\u00f3n de la tutela por la no respuesta al derecho de petici\u00f3n."
+    },
+    {
+      "question": "\u00bfLa personer\u00eda hace seguimiento al derecho de petici\u00f3n?",
+      "response": "En la entidad no se hace seguimiento a las peticiones, el servicio de efectividad le ofrece al usuario la posibilidad de tutelar ante la no respuesta a una petici\u00f3n; y de manera adicional, se hacen visitas de verificaci\u00f3n a las entidades que se han evidenciado vulneran el derecho de petici\u00f3n."
+    },
+    {
+      "question": "\u00bfQu\u00e9 hace la Personer\u00eda de Medell\u00edn si un usuario llega diciendo que la entidad a la cual remiti\u00f3 un derecho de petici\u00f3n, no le ha respondido?",
+      "response": "El usuario\u00a0se re direcciona con la persona que opera el servicio Efectividad al derecho de petici\u00f3n, para que ella verifique en primer lugar\u00a0si la petici\u00f3n fue radicada ante la entidad y si\u00a0ya transcurrieron los t\u00e9rminos para la respuesta luego de radicada la solicitud,\u00a0y si no el t\u00e9rmino ya est\u00e1 vencido, procede a\u00a0elaborar\u00a0la tutela por vulneraci\u00f3n al derecho de petici\u00f3n."
+    },
+    {
+      "question": "\u00bfCu\u00e1les son los derechos que tengo como consumidor?",
+      "response": "Derecho a recibir productos de calidad, a la seguridad e indemnidad, de manera que los productos no causen da\u00f1os a la salud en condiciones normales de uso, el derecho a recibir informaci\u00f3n respecto de los productos que se ofrezcan y los riesgos que puedan derivarse de su consumo o utilizaci\u00f3n, derecho a protecci\u00f3n contra publicidad enga\u00f1osa, derecho a la reclamaci\u00f3n, entre otros.\u00a0"
+    },
+    {
+      "question": "\u00bfCu\u00e1l es el t\u00e9rmino de garant\u00eda legal?",
+      "response": "Ser\u00e1 el dispuesto por la Ley o autoridad competente, a falta de este, el enunciado por el productor y/o productor, de no indicarse ser\u00e1 un (1) a\u00f1o para productos nuevos, y para productos usados ser\u00e1 de tres (3) meses.\u00a0"
+    },
+    {
+      "question": "\u00bfQu\u00e9 aspectos incluye la garant\u00eda legal?",
+      "response": "La reparaci\u00f3n gratuita, si no admite reparaci\u00f3n procede reposici\u00f3n o devoluci\u00f3n de dinero.De repetirse la falla, el consumidor podr\u00e1 elegir una nueva reparaci\u00f3n, devoluci\u00f3n total o parcial del dinero, o cambio total o parcial del producto por uno de similares caracter\u00edsticas.\u00a0"
+    },
+    {
+      "question": "\u00bfEn qu\u00e9 casos no puede hacerse efectiva la garant\u00eda legal?",
+      "response": "El productor o proveedor se exonerar\u00e1 de la garant\u00eda legal cuando se demuestre que el defecto proviene de:\u00a0Caso fortuito o fuerza mayorHecho de un terceroUso indebido del bienQue el consumidor no atendi\u00f3 las instrucciones de uso, instalaci\u00f3n o mantenimiento."
+    },
+    {
+      "question": "\u00bfQu\u00e9 puedo hacer si un proveedor o establecimiento no responde por la garant\u00eda de un bien o servicio?",
+      "response": "En el evento en que el proveedor o productor no respondan, el consumidor podr\u00e1 exigir el cumplimiento de la efectividad de la garant\u00eda ante los jueces de la Rep\u00fablica o ante la Delegatura de Asuntos Jurisdiccionales de la Superintendencia de Industria y Comercio.\u00a0"
+    },
+    {
+      "question": "\u00bfQu\u00e9 mecanismos tengo para hacer efectivos mis derechos c\u00f3mo consumidor?",
+      "response": "La Personer\u00eda Distrital de Medell\u00edn, a trav\u00e9s de Atenci\u00f3n al P\u00fablico ofrece de forma gratuita a la comunidad los servicios de asesor\u00eda para la defensa de los derechos de los consumidores; a trav\u00e9s de este servicio se ofrece al usuario por medio de los profesionales id\u00f3neos de la entidad, la posibilidad de elaborar sus reclamaciones por violaci\u00f3n a las normas de protecci\u00f3n al consumidor.\u00a0\u00a0As\u00ed mismo, desde la Unidad para la Protecci\u00f3n del Inter\u00e9s P\u00fablico \u2013 UPIP, se realiza el seguimiento a la reclamaci\u00f3n, coadyuvando al ciudadano para la guarda y protecci\u00f3n de sus derechos y la efectividad de los mismos, tambi\u00e9n se les ofrece la alternativa de la conciliaci\u00f3n extrajudicial a trav\u00e9s de nuestro centro de conciliaci\u00f3n, y dado el caso, que no obtengan una soluci\u00f3n efectiva, se les brinda el acompa\u00f1amiento para la proyecci\u00f3n de la respectiva demanda ante la SIC."
+    },
+    {
+      "question": "\u00bfQu\u00e9 oferta de formaci\u00f3n se entrega a la ciudadan\u00eda desde el Centro de Pensamiento y formaci\u00f3n de la UPIP?",
+      "response": "Durante el a\u00f1o a trav\u00e9s de la p\u00e1gina web y de las redes sociales de la Personer\u00eda se ofertan\u00a0para la comunidad, los diplomados y cursos\u00a0que se realizar\u00e1n en la entidad, y se publica\u00a0la informaci\u00f3n detallada y el link para las\u00a0inscripciones o matr\u00edculas."
+    },
+    {
+      "question": "\u00bfQu\u00e9 hace la Personer\u00eda de Medell\u00edn respecto a gobierno escolar y los l\u00edderes estudiantiles?",
+      "response": "Gobierno escolar desarrolla actividades en torno al fortalecimiento de los Personeros Estudiantiles creados mediante la Ley 115 de 1994 y regulados por el decreto 1860 del mismo a\u00f1o y dem\u00e1s reglamentarios, trabajando con ellos en la defensa, guarda y promoci\u00f3n de los derechos humanos a trav\u00e9s de los procesos de democracia y convivencia en las instituciones educativas y sus entornos, adem\u00e1s del fortalecimiento participativo de la comunidad educativa en general.\u00a0\u00c9ste programa inicia cada a\u00f1o con unas jornadas de sensibilizaci\u00f3n a docentes, directivos docentes, l\u00edderes estudiantiles y padres de familia, continuando con la jornada de elecci\u00f3n, posesi\u00f3n, acompa\u00f1amiento y rendici\u00f3n de cuentas de los Personeros y Personeras Estudiantiles durante su periodo, donde se promueve la participaci\u00f3n de la comunidad educativa en b\u00fasqueda de convivencia, conciencia de respeto por el otro, por los animales y por el medio ambiente, reforzando este trabajo con la creaci\u00f3n de las redes municipal, departamental y nacional de Personeros y Personeras, con quienes se tienen encuentros de promulgaci\u00f3n de derechos y deberes y manejo de problem\u00e1ticas en sus entornos.\u00a0Gobierno escolar a trav\u00e9s de sus alertas tempranas atiende posibles vulneraciones a los derechos humanos en las instituciones educativas de la ciudad de Medell\u00edn, por medio de las PQRS y de forma personal en la sede central de la entidad.\u00a0"
+    },
+    {
+      "question": "\u00bfQu\u00e9 significa gobierno escolar?",
+      "response": "Es un organismo que permite que los estudiantes participen y tengan representaci\u00f3n ante la directiva de la Instituci\u00f3n, est\u00e1 conformado por un representante de cada curso y sirve como canal de comunicaci\u00f3n entre los estudiantes y directivos"
+    },
+    {
+      "question": "\u00bfCu\u00e1l es la ley que regula gobierno escolar?",
+      "response": "La conformaci\u00f3n del gobierno escolar se fundamenta legalmente en la Constituci\u00f3n Nacional, art\u00edculo 41 y en la Ley General de Educaci\u00f3n 115 de 1994 y en el Decreto 1860 del mismo de 1994."
+    },
+    {
+      "question": "\u00bfQu\u00e9 es el gobierno estudiantil?",
+      "response": "El Gobierno Estudiantil es uno solo, pero con dos visiones: gobierno de aula y gobierno de escuela, ambos conformados por un presidente, vicepresidente, secretario, tesorero, representante estudiantil y personero."
+    },
+    {
+      "question": "\u00bfC\u00f3mo est\u00e1 conformado gobierno escolar?",
+      "response": "El Gobierno escolar est\u00e1 integrado por:\u00a0el Rectorel Consejo Directivoel Consejo Acad\u00e9micoel Comit\u00e9 de Convivencia Escolarel Consejo Estudiantilel Personero estudiantilel Consejo de Padres de Familia."
+    },
+    {
+      "question": "\u00bfCu\u00e1l es la ley general de educaci\u00f3n?",
+      "response": "La Ley 115 de 1994 (Ley General de Educaci\u00f3n), de conformidad con el art\u00edculo 67 de la Constituci\u00f3n Pol\u00edtica, define y desarrolla la organizaci\u00f3n y la prestaci\u00f3n de la educaci\u00f3n formal en sus niveles de preescolar, b\u00e1sica (primaria y secundaria) y media, no formal e informal."
+    },
+    {
+      "question": "\u00bfQu\u00e9 es el rector y cu\u00e1les son las funciones?",
+      "response": "El rector\u00a0 es el representante\u00a0 del establecimiento, antes las autoridades educativas"
+    },
+    {
+      "question": "Funciones del Consejo Directivo",
+      "response": "Proponer a la Asamblea Corporativa la adopci\u00f3n de los Estatutos y de sus reformas.Determinar la planta de personal de la Corporaci\u00f3n.Disponer la participaci\u00f3n de la Corporaci\u00f3n en la constituci\u00f3n y organizaci\u00f3n de sociedades o asociaciones y fundaciones o el ingreso a las ya existentes."
+    },
+    {
+      "question": "\u00bfQu\u00e9 funci\u00f3n cumple un personero estudiantil?",
+      "response": "El papel del Personero Estudiantil, es promover el ejercicio de los deberes y derechos de los estudiantes, consagrados en el Manual de Convivencia de su instituci\u00f3n educativa. "
+    },
+    {
+      "question": "\u00bfQu\u00e9 personas integran el comit\u00e9 de convivencia escolar?",
+      "response": "El comit\u00e9 escolar de convivencia est\u00e1 integrado de la siguiente manera:El rector del establecimiento educativo, quien preside el comit\u00e9.\u00a0El personero estudiantil.\u00a0El docente con funci\u00f3n de orientaci\u00f3n.\u00a0El coordinador cuando exista este cargo.\u00a0El presidente del consejo de padres de familia.\u00a0El presidente del consejo de estudiantes.\u00a0Un docente que lidere procesos o estrategias de convivencia escolar"
+    },
+    {
+      "question": "\u00bfC\u00f3mo solicito un cupo en colegio p\u00fablico?",
+      "response": "Se debe dirigir en los colegios oficiales o agendando cita\u00a0 para recibir atenci\u00f3n en las direcciones locales de la I.E"
+    },
+    {
+      "question": "\u00bfC\u00f3mo saber si hay cupos en un colegio distrital?",
+      "response": "Debe consultar frecuentemente la p\u00e1gina www.educacionmedellin.edu.coOprima el bot\u00f3n matric\u00falate aqu\u00edSeleccione la opci\u00f3n nuevo cupo"
+    },
+    {
+      "question": "\u00bfC\u00f3mo puedo solicitar un cupo para estudiar en Medell\u00edn?",
+      "response": "Identificar al ni\u00f1o o adolescente que esta sin estudiarRevisa los requisitos b\u00e1sicosDir\u00edgete a la sede del n\u00facleo estudiantil m\u00e1s cercana con los documentos indicados"
+    },
+    {
+      "question": "\u00bfD\u00f3nde y c\u00f3mo puedo solicitar un cupo para acceder a la educaci\u00f3n de adultos?",
+      "response": "Los aspirantes a la formaci\u00f3n formal de adultos podr\u00e1n solicitar el cupo en la direcci\u00f3n del n\u00facleo educativo del sector en cual reside.Como o que hace la personer\u00eda Distrital de Medell\u00edn por los Personeros EstudiantilesLos capacita, los sensibiliza y los concientiza, para que tomen el rol de representante de su instituci\u00f3n educativa mostr\u00e1ndoles y d\u00e1ndole a conocer las funciones que debe asumir como representante estudiantil."
+    },
+    {
+      "question": "\u00bfQu\u00e9 debo hacer el usuario para registrar una veedur\u00eda en la Personer\u00eda de Medell\u00edn?",
+      "response": "Despu\u00e9s de constituir su veedur\u00eda, traer y radicar en la taquilla o a trav\u00e9s de info\u00a0de la Personer\u00eda de Medell\u00edn, el\u00a0Acta de constituci\u00f3n de la veedur\u00eda, listado de asistencia a la asamblea de conformaci\u00f3n de veedur\u00edas y copias de la cedula de los veedores; para que se le expida el registro de su veedur\u00eda.\u200b"
+    },
+    {
+      "question": "\u00bfDe qu\u00e9 forma se hacen las asesor\u00edas y acompa\u00f1amientos del grupo de asuntos \u00e9tnicos, migrantes y refugiados?",
+      "response": "Recibimos solicitud por medio id\u00f3neo (presencial, medios f\u00edsicos, digitales, telef\u00f3nicos, remisiones de otros procesos, entre otros) en temas relacionados con la poblaci\u00f3n \u00e9tnica, migrante o refugiada, y cuando sean de nuestra competencia. Generalmente consisten en temas relacionados con protecci\u00f3n internacional, acceso a derechos salud, educaci\u00f3n, asistencia humanitaria activando ruta con el 123 social, acompa\u00f1amiento y verificaci\u00f3n en hospitales por posibles vulneraciones y asesor\u00edas generalizadas en denuncias en materia de racismo y discriminaci\u00f3n.Estas asesor\u00edas y acompa\u00f1amientos, tambi\u00e9n surgen en territorio en los recorridos de ciudad en las comunas, en donde hacemos revisi\u00f3n de problem\u00e1ticas en los sectores que est\u00e1 la poblaci\u00f3n sujeto de este grupo, especialmente la ind\u00edgena."
+    },
+    {
+      "question": "\u00bfEn qu\u00e9 consisten las orientaciones en materia de protecci\u00f3n internacional?",
+      "response": "En orientar a los usuarios en temas de protecci\u00f3n internacional, que requieran saber acerca del procedimiento de determinaci\u00f3n\u00a0 de la condici\u00f3n de refugiado en Colombia, en caso de que el usuario cumpla las condiciones previstas por ley, ser\u00e1 remitido a atenci\u00f3n al p\u00fablico, UPDH de la Personer\u00eda, o Centro Integrate para el diligenciamiento de la solicitud de refugio, y/o de salvo conducto para que el mismo acceda a salud y educaci\u00f3n. En caso de que sea un tema relacionado al Permiso por Protecci\u00f3n Temporal para migrantes Venezolanos, se revisa con Migraci\u00f3n Colombia el estado de la entrega del mismo, o en su defecto se env\u00eda solicitud a la instituci\u00f3n."
+    },
+    {
+      "question": "\u00bfC\u00f3mo se le hace acompa\u00f1amiento a la implementaci\u00f3n de las politicas p\u00fablicas de la poblaci\u00f3n \u00e9tnica y migrante?",
+      "response": "Lo primero indag\u00e1ndole a la administraci\u00f3n municipal sobre la aplicabilidad e implementaci\u00f3n a las pol\u00edticas p\u00fablicas en favor de la poblaci\u00f3n \u00e9tnica, migrante y refugiada en la ciudad de Medell\u00edn, asistiendo a las reuniones de construci\u00f3n e implementaci\u00f3n de las mismas con los interesados y organizadores.En segundo lugar, realizar recomendaciones para la aplicabilidad y construcci\u00f3n de las pol\u00edticas p\u00fablicas relacionadas al enfoque diferencial y \u00e9tnicos para un efectivo acceso a derechos, cuando se denoten posibles incumplimientos o vulneraciones, y dada la necesidad emitimos boletines de ciudad."
+    },
+    {
+      "question": "\u00bfQu\u00e9 seguimiento y recomendaciones a la implementaci\u00f3n de los decretos \u00e9tnicos con fuerza de ley 4633 y 4635 del 2011 hace la Personer\u00eda a trav\u00e9s del Grupo de Asuntos \u00c9tnicos?",
+      "response": "Participamos en las mesas y los procesos de reparaci\u00f3n integral de las comunidades \u00e9tnicas, NARP e Ind\u00edgenas v\u00edctimas reconocidas en el marco del conflicto armado interno, en caso de alguna vulneraci\u00f3n, expresamos en los espacios institucionales las recomendaciones para que se registren en el acta del convocante, oficiamos, acompa\u00f1amos procesos de retornos con garant\u00edas, se tiene articulaci\u00f3n permanente con el enlace \u00e9tnico de la Unidad para las victimas en caso de cualquier ayuda que corresponda y solicite esta poblaci\u00f3n."
+    },
+    {
+      "question": "\u00bfA qu\u00e9 temas van orientadas las sensibilizaciones por el Grupo de Asuntos \u00c9tnicos, Migrantes y Refugiados de la Personer\u00eda Distrital de Medell\u00edn?",
+      "response": "Realizamos sensibilizaciones virtuales o presenciales a la poblaci\u00f3n en general y a la institucionalidad, promocionando y divulgando los derechos humanos, rutas de la institucionalidad para la poblaci\u00f3n \u00e9tnica, acceso a derechos fundamentales de la poblaci\u00f3n NARP e Ind\u00edgena, mecanismos de protecci\u00f3n, temas de regularizaci\u00f3n migratoria, enfoque diferencial, racismo y discriminaci\u00f3n racial y otros para el tratamiento diferencial a la poblaci\u00f3n \u00e9tnica, migrante y refugiada en la ciudad de Medell\u00edn."
+    },
+    {
+      "question": "\u00bfQu\u00e9 ley protege los NNA (ni\u00f1os, ni\u00f1as y adolescentes) en Colombia?",
+      "response": "Ley 1098 de 2006, Ley de Infancia y Adolescencia."
+    },
+    {
+      "question": "\u00bfQu\u00e9 hace la Personer\u00eda Distrital de Medell\u00edn, respecto a ni\u00f1os, ni\u00f1as y adolescentes?",
+      "response": "La Personer\u00eda Distrital de Medell\u00edn, busca Proteger los derechos de los Ni\u00f1os, Ni\u00f1as\u00a0 y Adolescentes, implementando las acciones a que haya lugar y que est\u00e9n a cargo de la entidad como:Promoci\u00f3n de los Derechos y las Responsabilidades para la protecci\u00f3n integral de los NNA.Activaci\u00f3n de rutas de ser necesario.Asesorar a quien lo requiera.Verificar el cumplimiento efectivo de las obligaciones y/o funciones asignadas a cada dependencia del Distrito."
+    },
+    {
+      "question": "\u00bfQu\u00e9 se hace desde la Personer\u00eda Distrital por los j\u00f3venes, la familia y las mujeres?",
+      "response": "Como dice la parte misional de la Personer\u00eda, desde la entidad velamos por la guarda y promoci\u00f3n de los Derechos de las Personas, buscando siempre convivencia en los entornos. Para ello, en caso de conocer alguna vulneraci\u00f3n, procedemos a activar rutas, a acompa\u00f1ar a las personas en la b\u00fasqueda de soluci\u00f3n a sus situaciones y a verificar con las entidades competentes, si se est\u00e1 prestando un servicio efectivo."
+    },
+    {
+      "question": "\u00bfC\u00f3mo solicitar apoyo de la Personer\u00eda Distrital de Medell\u00edn?",
+      "response": "Si tiene o conoce un caso de vulneraci\u00f3n de Derechos de Ni\u00f1os, Ni\u00f1as, Adolescentes, J\u00f3venes, Familia o Mujeres, deben de enviarnos la petici\u00f3n o queja al correo: info@personeriamedellin.gov.coLlamarnos al tel. 6043849999 o visitarnos en nuestras sedes aqu\u00ed"
+    },
+    {
+      "question": "\u00bfQu\u00e9 son pol\u00edticas p\u00fablicas?",
+      "response": "Proceso de planeaci\u00f3n que define una visi\u00f3n de largo plazo, que sobrepasa los periodos de administraci\u00f3n de los gobiernos y orienta el proceso de cambio frente a realidades sociales relevantes.Una decisi\u00f3n determinada por el gobierno para (i) abordar los desaf\u00edos socioecon\u00f3micos en un pa\u00edsInstrumentos que permiten construir respuestas que permiten incidir favorablemente en la vida y los territorios."
+    },
+    {
+      "question": "\u00bfQu\u00e9 se hace desde la Personer\u00eda Distrital de Medell\u00edn respecto a las pol\u00edticas p\u00fablicas?",
+      "response": "Se hace seguimiento a las diferentes pol\u00edticas p\u00fablicas poblacionales del Distrito, con la participaci\u00f3n en mesas, comit\u00e9s y dem\u00e1s organismos encargados de la protecci\u00f3n de derechos, adem\u00e1s de intervenir, apoyar, sugerir, acompa\u00f1ar, vigilar y/o controlar la puesta en marcha de las mismas pol\u00edticas p\u00fablicas desde las diferentes instituciones del Estado, verificando que se cumpla efectivamente con las obligaciones y/o funciones asignadas a cada dependencia.Si conoce un caso de inaplicaci\u00f3n o incumplimiento de una de las Pol\u00edticas P\u00fablicas del Distrito de Medell\u00edn, debe de enviarnos la petici\u00f3n o queja al correo: info@personeriamedellin.gov.coLlamarnos al tel. 6043849999 o visitarnos en nuestras sede aqu\u00ed"
+    },
+    {
+      "question": "\u00bfCu\u00e1les son los requisitos para solicitar audiencia de conciliaci\u00f3n?",
+      "response": "Datos completos de identificaci\u00f3n y de notificaci\u00f3n de las partes (convocante(s) y convocado(s)), copia del o los documentos de identidad del o los Convocantes.Nombre y direcci\u00f3n del representante o apoderado (si los tienen). Es obligaci\u00f3n del convocante o apoderado anexar el poder correspondiente y si el solicitante act\u00faa como apoderado general, debe aportar la escritura p\u00fablica contentiva del poder con la nota de vigencia, con no m\u00e1s de 1 mes por parte de la notar\u00eda.Las peticiones objeto de la conciliaci\u00f3n y una s\u00edntesis de los hechos que las fundamenta.Estimaci\u00f3n del valor de cada una de ellas.Copia informal de las pruebas documentales con las que se cuente.Cuando se trate de personas jur\u00eddicas a citar, se debe anexar el certificado de existencia y representaci\u00f3n legal, con una vigencia no superior a tres (3) meses.En las solicitudes cuya pretensi\u00f3n se trate de fijaci\u00f3n de cuota alimentaria, regulaci\u00f3n r\u00e9gimen de visitas entre otros, se debe acompa\u00f1ar a la solicitud el registro civil de nacimiento de los hijos involucrados, y certificaci\u00f3n de la instituci\u00f3n educativa donde adelanta sus estudios en caso de tratarse de un mayor de edad.En los casos en que se solicita aumento de la cuota alimentaria y se tenga una conciliaci\u00f3n anterior ante la Comisaria, Juzgado o Centros de Conciliaci\u00f3n, esta debe ser aportada, o si fue mediante sentencia, el correspondiente fallo. Igualmente, los documentos que tenga para acreditar los gastos (pagos de estudios, transporte etc.)Para asuntos de declaraci\u00f3n o disoluci\u00f3n y liquidaci\u00f3n de uni\u00f3n marital de hecho y sociedad patrimonial, y otros que tengan relaci\u00f3n con el estado civil de las personas, deber\u00e1 allegarse copia del folio del registro civil de nacimiento, con una vigencia no superior a un (1) mes."
+    },
+    {
+      "question": "\u00bfCu\u00e1l es procedimiento para verificar el estrato socioecon\u00f3mico del solicitante?",
+      "response": "De conformidad con el reglamento interno del Centro de Conciliaci\u00f3n de la Personer\u00eda Distrital de Medell\u00edn, la verificaci\u00f3n del estrato socioecon\u00f3mico se realiza por medio de la cuenta de servicios que deber\u00e1 aportar el solicitante respecto de la audiencia de conciliaci\u00f3n.\u00a0 Tal como lo establece el numeral 9 del art\u00edculo 56, respecto a las obligaciones de los usuarios: \u201cEs requisito indispensable que la direcci\u00f3n de notificaci\u00f3n corresponda a la del convocante, coincida con la de la cuenta de servicios y/o documento a trav\u00e9s del cual se pretende acreditar el estrato socioecon\u00f3mico. Tal declaraci\u00f3n entender\u00e1 bajo la gravedad de juramento incurriendo en la sanci\u00f3n del numeral inmediatamente anterior quien no cumpla con tal mandato\u201d."
+    },
+    {
+      "question": "\u00bfCon la conciliaci\u00f3n ya no hay proceso?",
+      "response": "La conciliaci\u00f3n es un mecanismo alternativo de soluci\u00f3n de conflictos y por tal cuando se llega a un acuerdo, que hace tr\u00e1nsito a cosa juzgada y presta merito ejecutivo, por lo tanto, las partes no podr\u00e1n acudir a la jurisdicci\u00f3n a ventilar los mismos hechos, lo podr\u00e1n hacer en el evento en que el acuerdo conciliatorio sea parcial, entonces s\u00ed podr\u00e1n acudir ante la jurisdicci\u00f3n, pero solo a ventilar la parte del conflicto que no se concili\u00f3."
+    },
+    {
+      "question": "\u00bfEl tr\u00e1mite de conciliaci\u00f3n es demorado? ",
+      "response": "Es un mecanismo \u00e1gil si se compara con un proceso judicial y en raz\u00f3n de eso las partes van a realizar un ahorro significativo en t\u00e9rminos de tiempo. El tr\u00e1mite en s\u00ed no es demorado, pero puede variar dependiendo del centro o conciliador que lo haga."
+    },
+    {
+      "question": "\u00bfCu\u00e1nto cuesta la conciliaci\u00f3n? ",
+      "response": "La conciliaci\u00f3n no tiene costo en los centros de conciliaci\u00f3n de los consultorios jur\u00eddicos, entidades P\u00fablicas."
+    },
+    {
+      "question": "\u00bfCu\u00e1nto cuestan los servicios de la Personer\u00eda?",
+      "response": "Todos los servicios ofrecidos por la Personer\u00eda de Medell\u00edn son gratuitos."
+    },
+    {
+      "question": "\u00bfQu\u00e9 es Personer\u00eda en L\u00ednea?",
+      "response": "Plataforma digital que naci\u00f3 con la idea de optimizar la gesti\u00f3n virtual de la Personer\u00eda de Medell\u00edn, encaminada a proteger los derechos humanos y los intereses de la sociedad. Enlace al sistema"
+    },
+    {
+      "question": "\u00bfA qu\u00e9 informaci\u00f3n de la Entidad puede acceder la ciudadan\u00eda?",
+      "response": "A toda informaci\u00f3n que no tenga reserva establecida en la ley, lo cual significa que la restricci\u00f3n al acceso deber\u00e1 estar contemplada en norma legal o constitucional."
+    },
+    {
+      "question": "\u00bfA qu\u00e9 funcionarios p\u00fablicos investiga la Personer\u00eda de Medell\u00edn?",
+      "response": "La Personer\u00eda ejerce vigilancia de la conducta oficial de quienes desempe\u00f1an funciones p\u00fablicas municipales; excepto:AlcaldesContralor MunicipalConcejales"
+    },
+    {
+      "question": "\u00bfCu\u00e1ndo abren inscripciones para los diplomados de la Personer\u00eda de Medell\u00edn?",
+      "response": "Los programas de formaci\u00f3n ofrecidos por la Unidad para la Protecci\u00f3n del Inter\u00e9s P\u00fablico UPIP son abiertos dos veces al a\u00f1o. Para inscribirse se debe estar atento a las publicaciones que se realizan en las redes sociales de la entidad en el primer y segundo semestre."
+    },
+    {
+      "question": "\u00bfQui\u00e9n es v\u00edctima?",
+      "response": "LEY 1448 DE 2011 ART\u00cdCULO\u00a03\u00b0. V\u00cdCTIMAS.\u00a0Se consideran v\u00edctimas, para los efectos de esta ley, aquellas personas que individual o colectivamente hayan sufrido un da\u00f1o por hechos ocurridos\u00a0a partir del 1 de enero de 1985, como consecuencia de infracciones al Derecho Internacional Humanitario o de violaciones graves y manifiestas a las normas internacionales de Derechos Humanos,\u00a0ocurridas con ocasi\u00f3n del conflicto armado interno."
+    },
+    {
+      "question": "\u00bfCu\u00e1nto tiempo tengo para declarar un hecho victimizante?",
+      "response": "LEY 1448 DE 2011 ART\u00cdCULO 155. SOLICITUD DE REGISTRO DE LAS V\u00cdCTIMAS.\u00a0Las v\u00edctimas deber\u00e1n presentar una declaraci\u00f3n ante el Ministerio P\u00fablico en un t\u00e9rmino de cuatro (4) a\u00f1os contados a partir de la promulgaci\u00f3n de la presente ley para quienes hayan sido victimizadas con anterioridad a ese momento, y de dos (2) a\u00f1os contados a partir de la ocurrencia del hecho respecto de quienes lo sean con posterioridad a la vigencia de la ley, conforme a los requisitos que para tal efecto defina el Gobierno Nacional, y a trav\u00e9s del instrumento que dise\u00f1e la Unidad Administrativa Especial para la Atenci\u00f3n y Reparaci\u00f3n Integral a las v\u00edctimas, el cual ser\u00e1 de uso obligatorio por las entidades que conforman el Ministerio P\u00fablico.En el evento de fuerza mayor que haya impedido a la v\u00edctima presentar la solicitud de registro en el t\u00e9rmino establecido en este art\u00edculo, se empezar\u00e1 a contar el mismo desde el momento en que cesen las circunstancias que motivaron tal impedimento, para lo cual deber\u00e1 informar de ello al Ministerio P\u00fablico quien remitir\u00e1 tal informaci\u00f3n a la Unidad Administrativa Especial para la Atenci\u00f3n y Reparaci\u00f3n Integral a las V\u00edctimas."
+    },
+    {
+      "question": "\u00bfQu\u00e9 es una verificaci\u00f3n de derechos humanos y en qu\u00e9 consiste? ",
+      "response": "Aplica para todas las visitas realizadas por el Servidor P\u00fablico/ Contratista de la Personer\u00eda de Medell\u00edn. (Reacciones, atenciones, asistencia, acompa\u00f1amiento, recorridos, marchas, plantones y dem\u00e1s que se requieran). As\u00ed mismo las verificaciones que con ocasi\u00f3n a la ley 1801/2016 \u201cPor la cual se expide el C\u00f3digo Nacional de Polic\u00eda y Convivencia\u201d se deban realizar por parte del Ministerio P\u00fablico.Consiste en Proteger, promover y verificar los derechos humanos ante las posibles vulneraciones o amenazas por la acci\u00f3n u omisi\u00f3n de la Autoridad P\u00fablica o por particular."
+    },
+    {
+      "question": "\u00bfQu\u00e9 es valoraci\u00f3n de apoyos?",
+      "response": "Es el proceso t\u00e9cnico que se realiza con la persona con discapacidad para conocer cu\u00e1les son los apoyos que necesita para expresar su voluntad y preferencias, siguiendo el Lineamiento y Protocolo para la Valoraci\u00f3n de Apoyo."
+    },
+    {
+      "question": "\u00bfQu\u00e9 pasa con los procesos de interdicci\u00f3n en curso?",
+      "response": "Todos los procesos de interdicci\u00f3n en curso, quedan suspendidos, pero dentro de los (36) siguientes se debe adelantar las siguientes acciones:Los jueces de competencia deben citar de oficio a las personas que cuenten con sentencia de interdicci\u00f3n, curadores o consejeros, para determinar si requieren de la adjudicaci\u00f3n judicial de apoyos.Las personas bajo medida de interdicci\u00f3n o inhabilitaci\u00f3n podr\u00e1n solicitar la revisi\u00f3n de su situaci\u00f3n jur\u00eddica ante el juez de familia que adelant\u00f3 el proceso de Interdicci\u00f3n o inhabilitaci\u00f3n. (art. 56 Ley 1996)"
+    },
+    {
+      "question": "\u00bfQu\u00e9 son las quejas disciplinarias?",
+      "response": "Es una de las formas en que se acciona o pone en movimiento el aparato disciplinario, contempladas en el art\u00edculo 86 del C\u00f3digo General Disciplinario Ley 1952 de 2019 y constituye un supuesto de reclamaci\u00f3n, denuncia o cr\u00edtica de la actuaci\u00f3n administrativa.La Unidad M\u00f3vil, se agentara de acuerdo a la demanda y solicitudes realizadas, mismas que deben realizar a trav\u00e9s de info@personeriamedellin.gov.co, con m\u00ednimo 15 dias de anterioridad y con los datos b\u00e1sicos para garantizar la presencia y prestaci\u00f3n del servicio.\u00a0Datos de la persona o entidad solicitante.Ubicaci\u00f3n y direcci\u00f3n de la actividad (especificar espacio en donde se ubicara la Unidad Movil)Tipo de poblaci\u00f3n a impactar (NNA, ADULTOS MAYORES, POBLACION MIGRANTE, POBLACION GENERAL, ETC)ComunaHorario de atenci\u00f3nA d\u00f3nde dirigirse, preferente de la Procuradur\u00eda General de la Naci\u00f3n y de las Personer\u00edas distritales y municipales.Los campos necesarios para el servicio de Verificaci\u00f3n de Derechos Humanos, se pueden tomar los plasmados en el formato de la recepci\u00f3n de reacci\u00f3n inmediata del SGC FS(AP-UP)023 RECEPCION REACCION INMEDIATA.docx. Los campos obligatorios ser\u00edan los resaltados en rojo"
+    },
+    {
+      "question": "\u00bfQu\u00e9 es la Unidad de Vigilancia administrativa e Instrucci\u00f3n disciplinaria?",
+      "response": "Es el \u00e1rea encargada de la vigilancia de la conducta oficial, es decir, de los servidores p\u00fablicos. Para ello, cuenta con dos subprocesos:Vigilancia Administrativa: La entidad verifica todas las actuaciones administrativas desplegadas por los servidores p\u00fablicos, en las entidades objeto de vigilancia, a fin de establecer si se ha cometido o no conductas irregulares por parte de los servidores objeto del proceso de vigilancia.Instrucci\u00f3n disciplinaria: Adelanta las averiguaciones disciplinarias en contra de los servidores p\u00fablicos del distrito de Medell\u00edn, por presuntas conductas irregulares desplegadas durante el ejercicio de sus funciones y/o en virtud de las mismas."
+    },
+    {
+      "question": "\u00bfCu\u00e1l es la normativa que rige las investigaciones disciplinarias? ",
+      "response": "Regla general: Ley 1952 de 2019- C\u00f3digo General Disciplinario-, modificada por la Ley 2094 de 2021.Excepci\u00f3n: Ley 734 de 2002- C\u00f3digo Disciplinario \u00danico-."
+    },
+    {
+      "question": "\u00bfC\u00f3mo puede el ciudadano presentar una denuncia disciplinaria?",
+      "response": "La denuncia puede presentarse por cualquiera de los canales oficiales de la Personer\u00eda Distrital de Medell\u00edn, tambi\u00e9n de manera presencial en la entidad en nuestras sedes, aqu\u00ed."
+    },
+    {
+      "question": "\u00bfCu\u00e1les son las facultades de la persona que interpone una queja disciplinaria? ",
+      "response": "Conforme lo se\u00f1alado en el art\u00edculo 110 de la Ley 1952 de 2019, par\u00e1grafo 1, la intervenci\u00f3n del quejoso se limita a presentar y ampliar la queja bajo la gravedad del juramento, a aportar pruebas que tenga en su poder y a recurrir la decisi\u00f3n de archivo y el fallo absolutorio."
+    },
+    {
+      "question": "\u00bfCu\u00e1les son las sanciones para los servidores p\u00fablicos, en los eventos de responsabilidad disciplinaria?",
+      "response": "Conforme lo se\u00f1alado en el art\u00edculo 48 de la Ley 1952 de 2019, las sanciones a imponer corresponder\u00e1n a destituci\u00f3n, inhabilidad, suspensi\u00f3n en el ejercicio del cargo, multa y amonestaci\u00f3n."
+    },
+    {
+      "question": "\u00bfQu\u00e9 servicios puedo encontrar en la Personer\u00eda Distrital de Medell\u00edn?",
+      "response": "Acci\u00f3n de tutela: es un mecanismo de defensa judicial, mediante el cual toda persona, puede reclamar ante los jueces, en todo momento y lugar, la protecci\u00f3n inmediata de sus derechos constitucionales fundamentales, cuando estos resulten vulnerados o amenazados por la acci\u00f3n u omisi\u00f3n de las autoridades p\u00fablicas o de los particulares en algunos casos. LinkImpugnaci\u00f3n de fallo de tutela. LinkIncidente de desacato. LinkElaboraci\u00f3n escrito derecho de petici\u00f3n: El derecho de petici\u00f3n es un derecho fundamental (art. 23 Constituci\u00f3n Pol\u00edtica) que tenemos todas las personas de presentar peticiones respetuosas, a las autoridades, por motivos de inter\u00e9s general o particular y de obtener una respuesta oportuna. Excepcionalmente procede ante organizaciones privadas o particulares. LinkAsesor\u00eda Jur\u00eddica / Orientaci\u00f3n al ciudadano. LinkReiteraci\u00f3n de solicitud de apertura de incidente de desacato,Conciliaci\u00f3n extrajudicial en derecho civil \u2013 comercial \u2013 familiar. (En materia laboral y administrativo no somos competentes)Revisi\u00f3n del proceso penal (fiscal\u00edas locales y juzgados penales municipales) y restablecimiento de derechos de Ni\u00f1os, Ni\u00f1as, Adolescentes y adultos mayoresReclamaci\u00f3n derechos del consumidorDeclaraci\u00f3n bajo juramento y/o quejas contra servidores p\u00fablicosRevisi\u00f3n de procesos contravencionales de polic\u00eda y comisar\u00edaSolicitud de estudio de acciones constitucionales (acciones de grupo, populares, cumplimiento)Interposici\u00f3n de recursos (reposici\u00f3n y apelaci\u00f3n por no inclusi\u00f3n como desplazado o por no reconocimiento de reparaci\u00f3n administrativa como v\u00edctima, Decreto 1290 de 2008 y Ley 1448 de 2011)Declaraci\u00f3n de desplazadosSolicitud de protecci\u00f3n y cancelaci\u00f3n de tierras"
+    },
+    {
+      "question": "No entiendo las preguntas que van en la WEB",
+      "response": "Acci\u00f3n de tutela: es un mecanismo de defensa judicial, mediante el cual toda persona, puede reclamar ante los jueces, en todo momento y lugar, la protecci\u00f3n inmediata de sus derechos constitucionales fundamentales, cuando estos resulten vulnerados o amenazados por la acci\u00f3n u omisi\u00f3n de las autoridades p\u00fablicas o de los particulares en algunos casos. LinkImpugnaci\u00f3n de fallo de tutela. LinkIncidente de desacato. LinkElaboraci\u00f3n escrito derecho de petici\u00f3n: El derecho de petici\u00f3n es un derecho fundamental (art. 23 Constituci\u00f3n Pol\u00edtica) que tenemos todas las personas de presentar peticiones respetuosas, a las autoridades, por motivos de inter\u00e9s general o particular y de obtener una respuesta oportuna. Excepcionalmente procede ante organizaciones privadas o particulares. LinkAsesor\u00eda Jur\u00eddica / Orientaci\u00f3n al ciudadano. LinkReiteraci\u00f3n de solicitud de apertura de incidente de desacato,Conciliaci\u00f3n extrajudicial en derecho civil \u2013 comercial \u2013 familiar. (En materia laboral y administrativo no somos competentes)Revisi\u00f3n del proceso penal (fiscal\u00edas locales y juzgados penales municipales) y restablecimiento de derechos de Ni\u00f1os, Ni\u00f1as, Adolescentes y adultos mayoresReclamaci\u00f3n derechos del consumidorDeclaraci\u00f3n bajo juramento y/o quejas contra servidores p\u00fablicosRevisi\u00f3n de procesos contravencionales de polic\u00eda y comisar\u00edaSolicitud de estudio de acciones constitucionales (acciones de grupo, populares, cumplimiento)Interposici\u00f3n de recursos (reposici\u00f3n y apelaci\u00f3n por no inclusi\u00f3n como desplazado o por no reconocimiento de reparaci\u00f3n administrativa como v\u00edctima, Decreto 1290 de 2008 y Ley 1448 de 2011)Declaraci\u00f3n de desplazadosSolicitud de protecci\u00f3n y cancelaci\u00f3n de tierras"
+    },
+    {
+      "question": "\u00bfQu\u00e9 es la Unidad de Vigilancia administrativa e Instrucci\u00f3n disciplinaria?",
+      "response": "Es el \u00e1rea encargada de la vigilancia de la conducta oficial, es decir, de los servidores p\u00fablicos. Para ello, cuenta con dos subprocesos:-Vigilancia Administrativa: La entidad verifica todas las actuaciones administrativas desplegadas por los servidores p\u00fablicos, en las entidades objeto de vigilancia, a fin de establecer si se ha cometido o no conductas irregulares por parte de los servidores objeto del proceso de vigilancia.-Instrucci\u00f3n disciplinaria: Adelanta las averiguaciones disciplinarias en contra de los servidores p\u00fablicos del distrito de Medell\u00edn, por presuntas conductas irregulares desplegadas durante el ejercicio de sus funciones y/o en virtud de las mismas."
+    },
+    {
+      "question": "\u00bfCu\u00e1l es la normativa que rige las investigaciones disciplinarias?",
+      "response": "Regla general: Ley 1952 de 2019- C\u00f3digo General Disciplinario-, modificada por la Ley 2094 de 2021.-Excepci\u00f3n: Ley 734 de 2002- C\u00f3digo Disciplinario \u00danico-.\u00a0"
+    },
+    {
+      "question": "\u00bfC\u00f3mo puede el ciudadano presentar una denuncia disciplinaria?",
+      "response": "La denuncia puede presentarse por cualquiera de los canales oficiales de la Personer\u00eda distrital de Medell\u00edn, tambi\u00e9n de manera presencial en la entidad en las sedes aqu\u00ed descritas."
+    },
+    {
+      "question": "\u00bfCu\u00e1les son las facultades de la persona que interpone una queja disciplinaria?",
+      "response": "Conforme lo se\u00f1alado en el art\u00edculo 110 de la Ley 1952 de 2019, par\u00e1grafo 1, la intervenci\u00f3n del quejoso se limita a presentar y ampliar la queja bajo la gravedad del juramento, a aportar pruebas que tenga en su poder y a recurrir la decisi\u00f3n de archivo y el fallo absolutorio."
+    },
+    {
+      "question": "\u00bfCu\u00e1les son las sanciones para los servidores p\u00fablicos, en los eventos de responsabilidad disciplinaria?",
+      "response": "Conforme lo se\u00f1alado en el art\u00edculo 48 de la Ley 1952 de 2019, las sanciones a imponer corresponder\u00e1n a destituci\u00f3n, inhabilidad, suspensi\u00f3n en el ejercicio del cargo, multa y amonestaci\u00f3n."
+    }
+  ]
+}
