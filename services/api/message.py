@@ -1,5 +1,5 @@
 from clients.twilio import client
-from services import llm as llm_service
+from services.api import llm as llm_service
 from schemas.message import MessageCreate
 from models.conversation import Conversation
 from models.message import Message

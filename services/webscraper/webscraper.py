@@ -73,7 +73,6 @@ class Scraper:
     def get_business_history(self, page: Page):
         path = '/nuestra-historia/'
         page.goto(self.base_url + path)
-        page.screenshot
         elements = page.query_selector_all('.twae-content')
         scraped_data = []
         for element in elements:

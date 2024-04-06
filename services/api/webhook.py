@@ -1,4 +1,4 @@
-from services import user as user_service, conversation as conversation_service, message as message_service
+from services.api import user as user_service, conversation as conversation_service, message as message_service
 
 
 def initialize_conversation(**kwargs):
