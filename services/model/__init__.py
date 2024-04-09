@@ -17,6 +17,9 @@ class Model:
     def predict(self, prompt):
         pipe = pipeline(task="text-generation", model=self.model,
                         tokenizer=self.tokenizer, max_length=200)
-        result = pipe(f"<s>[INST] {prompt} [/INST]")
+        response_separator = '[/INST]'
+        result = pipe(f"<s>[INST] {prompt} {response_separator}")
 
-        return result[0]['generated_text']
+        generated_text = result[0]['generated_text']
+
+        return generated_text.split(response_separator)[1].strip()
