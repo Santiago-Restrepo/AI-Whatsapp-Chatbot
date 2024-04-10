@@ -1,4 +1,4 @@
-from services.api import user as user_service, conversation as conversation_service, message as message_service
+from services import user as user_service, conversation as conversation_service, message as message_service
 
 
 def initialize_conversation(**kwargs):
@@ -11,7 +11,7 @@ def initialize_conversation(**kwargs):
 
 def run_conversation_flow(**kwargs):
     # Initialize conversation
-    user, conversation, is_new_conversation = initialize_conversation(
+    conversation, is_new_conversation = initialize_conversation(
         **kwargs)
 
     # End conversation if needed

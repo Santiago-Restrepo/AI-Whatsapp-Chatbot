@@ -1,7 +1,8 @@
 from sqlalchemy import Column, ForeignKey, Integer, String, DateTime
 from sqlalchemy.orm import relationship
 
-from database import Base
+from modules.api.dependencies.database import Base
+
 
 class Llm(Base):
     __tablename__ = "llms"

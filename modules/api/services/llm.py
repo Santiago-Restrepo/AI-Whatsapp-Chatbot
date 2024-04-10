@@ -1,7 +1,6 @@
-from clients.anthropic import client
-from services.model import Model
+from dependencies.model import Model
 
-model = Model("./Llama-2-7b-chat-hf")
+model = Model("../llm/Llama-2-7b-chat-hf")
 
 
 def generate_llm_response(**kwargs):
