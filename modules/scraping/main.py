@@ -11,14 +11,10 @@ class Scraper:
     def run(self):
 
         extracted_data = self.extract()
-        with open('data/extracted.json', 'w') as f:
-            json.dump(extracted_data, f)
 
         transformed_data = self.transform(extracted_data)
-        print(len(transformed_data))
-        with open('data/transformed.json', 'w') as f:
-            json.dump(transformed_data, f)
-        # load()
+
+        self.load(transformed_data)
 
     def extract(self):
         with sync_playwright() as playwright:
@@ -299,8 +295,9 @@ class Scraper:
 
         return prompts
 
-    def load():
-        pass
+    def load(self, transformed_data):
+        with open('data/transformed.json', 'w') as f:
+            json.dump(transformed_data, f)
 
 
 if __name__ == '__main__':
