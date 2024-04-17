@@ -7,7 +7,12 @@ from transformers import (
 
 class Model:
 
-    def __init__(self, model_name):
+    def __init__(self, model_name, mock_model=False):
+        if mock_model:
+            self.model = None
+            self.tokenizer = None
+            self.mock_model = True
+            return
         self.model = AutoModelForCausalLM.from_pretrained(
             model_name
         )
@@ -15,6 +20,8 @@ class Model:
             model_name, trust_remote_code=True)
 
     def predict(self, prompt):
+        if self.mock_model:
+            return "mock response"
         pipe = pipeline(task="text-generation", model=self.model,
                         tokenizer=self.tokenizer, max_length=200)
         response_separator = '[/INST]'

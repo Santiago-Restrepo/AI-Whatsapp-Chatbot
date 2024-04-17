@@ -1,4 +1,4 @@
-from modules.api.dependencies.database import SessionLocal
+from dependencies.database import SessionLocal
 
 
 def get_db():

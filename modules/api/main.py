@@ -1,7 +1,7 @@
 from fastapi import Depends, FastAPI, Form
 from sqlalchemy.orm import Session
 
-from modules.api.dependencies.database import engine
+from dependencies.database import engine
 from dependencies.get_db import get_db
 from services import webhook as webhook_service
 from models import Base

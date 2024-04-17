@@ -1,6 +1,6 @@
 from dependencies.model import Model
 
-model = Model("../llm/Llama-2-7b-chat-hf")
+model = Model("../llm/Llama-2-7b-chat-hf", mock_model=True)
 
 
 def generate_llm_response(**kwargs):
