@@ -1,7 +1,6 @@
 from dependencies.model import Model
 
-model = Model("../llm/Llama-2-7b-chat-hf", mock_model=True)
-
+model = Model("santi-restrepo-poli/Llama-2-7b-chat-hf", True)
 
 def generate_llm_response(**kwargs):
     user_message = kwargs['webhook_data']['message']

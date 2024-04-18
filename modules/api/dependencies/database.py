@@ -12,7 +12,7 @@ user = os.getenv('POSTGRES_USER')
 db = os.getenv('POSTGRES_DB')
 password = os.getenv('POSTGRES_PASSWORD')
 auth_token = os.getenv('TWILIO_AUTH_TOKEN')
-host = 'localhost'
+host = os.getenv('POSTGRES_HOST')
 SQLALCHEMY_DATABASE_URL = "postgresql://{}:{}@{}/{}".format(
     user, password, host, db)
 

@@ -6,7 +6,7 @@ def initialize_conversation(**kwargs):
     conversation, is_new_conversation = conversation_service.create_conversation_if_not_exists(
         user, **kwargs)
 
-    return user, conversation, is_new_conversation
+    return conversation, is_new_conversation
 
 
 def run_conversation_flow(**kwargs):

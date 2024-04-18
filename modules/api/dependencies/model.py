@@ -8,16 +8,18 @@ from transformers import (
 class Model:
 
     def __init__(self, model_name, mock_model=False):
+        self.mock_model = mock_model
         if mock_model:
             self.model = None
             self.tokenizer = None
-            self.mock_model = True
             return
-        self.model = AutoModelForCausalLM.from_pretrained(
-            model_name
-        )
+        
         self.tokenizer = AutoTokenizer.from_pretrained(
-            model_name, trust_remote_code=True)
+            model_name, trust_remote_code=True, )
+        
+        self.model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+        )
 
     def predict(self, prompt):
         if self.mock_model:
