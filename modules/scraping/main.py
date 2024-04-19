@@ -1,4 +1,4 @@
-from playwright.sync_api import sync_playwright, Page, Browser
+from playwright.sync_api import sync_playwright, Page
 from bs4 import BeautifulSoup
 import requests
 import json
