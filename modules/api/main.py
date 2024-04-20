@@ -8,6 +8,9 @@ from models import Base
 Base.metadata.create_all(bind=engine)
 app = FastAPI()
 
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
 
 @app.post("/webhooks/whatsapp/message")
 def receive_message(Body: str = Form(), WaId: str = Form(),   db: Session = Depends(get_db)):
