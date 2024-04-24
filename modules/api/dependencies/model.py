@@ -53,10 +53,10 @@ class Model:
         if self.mock_model:
             return "mock response"
         pipe = pipeline(task="text-generation", model=self.model,
-                        tokenizer=self.tokenizer, max_length=200)
+                        tokenizer=self.tokenizer, max_new_tokens=100)
         response_separator = '[/INST]'
         result = pipe(f"{context} <s>[INST] {prompt} {response_separator}")
 
         generated_text = result[0]['generated_text']
 
-        return generated_text.split(response_separator)[1].strip()
+        return generated_text
