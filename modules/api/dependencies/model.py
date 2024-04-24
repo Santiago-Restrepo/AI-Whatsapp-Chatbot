@@ -49,13 +49,13 @@ class Model:
             device_map=device_map
         )
 
-    def predict(self, prompt):
+    def predict(self, prompt, context=None):
         if self.mock_model:
             return "mock response"
         pipe = pipeline(task="text-generation", model=self.model,
                         tokenizer=self.tokenizer, max_length=200)
         response_separator = '[/INST]'
-        result = pipe(f"<s>[INST] {prompt} {response_separator}")
+        result = pipe(f"{context} <s>[INST] {prompt} {response_separator}")
 
         generated_text = result[0]['generated_text']
 

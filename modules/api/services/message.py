@@ -17,7 +17,7 @@ def send_message(conversation: Conversation, default_body_response: str = None, 
     if default_body_response:
         response = default_body_response
     else:
-        response = llm_service.generate_llm_response(**kwargs)
+        response = llm_service.generate_llm_response(conversation_messages=conversation.messages, **kwargs)
     client.messages.create(
         from_='whatsapp:+14155238886',
         body=response,
