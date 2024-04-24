@@ -1,4 +1,4 @@
-from models.message import Message
+from schemas.message import Message
 
 def generate_prompt_format(messages: list[Message]):
   formatted_messages = []
