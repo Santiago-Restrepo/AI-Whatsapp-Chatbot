@@ -14,11 +14,10 @@ MESSAGES = {
 def send_message(conversation: Conversation, default_body_response: str = None, **kwargs):
     wa_id = kwargs['webhook_data']['wa_id']
     message = kwargs['webhook_data']['message']
-    conversation_messages = get_conversation_messages(conversation.id, **kwargs)
     if default_body_response:
         response = default_body_response
     else:
-        response = llm_service.generate_llm_response(conversation_messages=conversation_messages, **kwargs)
+        response = llm_service.generate_llm_response(conversation_messages=conversation.messages, **kwargs)
     client.messages.create(
         from_='whatsapp:+14155238886',
         body=response,
@@ -45,6 +44,3 @@ def send_initial_message(conversation: Conversation, **kwargs):
 def send_final_message(conversation: Conversation, **kwargs):
     send_message(conversation, MESSAGES['final'], **kwargs)
 
-def get_conversation_messages(conversation_id: int, **kwargs):
-    db = kwargs['db']
-    return db.query(Message).filter(Message.conversation_id == conversation_id).all()
