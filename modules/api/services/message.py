@@ -7,7 +7,8 @@ from datetime import datetime
 
 MESSAGES = {
     'initial': 'Bienvenido al chatbot de la Personería Distrital De Medellín, la conversación finalizará una vez envíe la palabra finalizar o pasada 1 hora de haberse iniciado. ¿En qué podemos ayudarle el día de hoy?',
-    'final': 'Hasta pronto!'
+    'final': 'Hasta pronto!',
+    'wait': 'Se esta procesando tu consulta. Por favor espere un momento...'
 }
 
 
@@ -44,3 +45,5 @@ def send_initial_message(conversation: Conversation, **kwargs):
 def send_final_message(conversation: Conversation, **kwargs):
     send_message(conversation, MESSAGES['final'], **kwargs)
 
+def send_wait_message(conversation: Conversation, **kwargs):
+    send_message(conversation, MESSAGES['wait'], **kwargs)
