@@ -6,7 +6,7 @@ from models.message import Message
 from datetime import datetime
 
 MESSAGES = {
-    'initial': 'Bienvenido al chatbot de la Personería Distrital De Medellín, nuestra conversación finalizará una vez envíes la palabra *finalizar* o pasadas 72 horas de haberse iniciado. ¿En qué puedo ayudarte el día de hoy?',
+    'initial': 'Bienvenido al chatbot de la Personería Distrital De Medellín, la conversación finalizará una vez envíe la palabra finalizar o pasada 1 hora de haberse iniciado. ¿En qué podemos ayudarle el día de hoy?',
     'final': 'Hasta pronto!'
 }
 

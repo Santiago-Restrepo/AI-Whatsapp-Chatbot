@@ -64,5 +64,6 @@ class Model:
     def extract_final_response(self, generated_text, response_separator='[/INST]'):
         segments = generated_text.split(response_separator)
         final_response = segments[-1].strip()
-        final_response = final_response.rstrip('</s>')
+        segments = final_response.split('</s>')
+        final_response = segments[0].strip()
         return final_response

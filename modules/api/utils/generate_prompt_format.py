@@ -1,6 +1,5 @@
 
 def generate_prompt_format(messages):
-  print(f"Messages: {messages}")
   formatted_messages = []
   for msg in messages:
       formatted_msg = f'<s>[INST] {msg.body} [/INST] {msg.response}</s>'
