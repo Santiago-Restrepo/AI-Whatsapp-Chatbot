@@ -59,4 +59,10 @@ class Model:
 
         generated_text = result[0]['generated_text']
 
-        return generated_text
+        return self.extract_final_response(generated_text, response_separator)
+    
+    def extract_final_response(self, generated_text, response_separator='[/INST]'):
+        segments = generated_text.split(response_separator)
+        final_response = segments[-1].strip()
+        final_response = final_response.rstrip('</s>')
+        return final_response
