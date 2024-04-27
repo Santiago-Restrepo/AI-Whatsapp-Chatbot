@@ -1,14 +1,13 @@
-from dependencies.model import Model
-from utils.generate_prompt_format import generate_prompt_format
 from models.llm import Llm
+from assistants import assistants
 
-model = Model("santi-restrepo-poli/Llama-2-7b-chat-hf", True)
+assistant = assistants['ollama-assistant']()
 
 def generate_llm_response(conversation_messages=None,**kwargs):
-    context = generate_prompt_format(conversation_messages)
     user_message = kwargs['webhook_data']['message']
+    conversation_history = assistant.get_conversation_history(conversation_messages)
     
-    return model.predict(user_message, context=context)
+    return assistant.predict(user_message, conversation_history = conversation_history)
 
 def get_llm_by_name(name, **kwargs):
     db = kwargs['db']
