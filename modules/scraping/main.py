@@ -1,8 +1,8 @@
 from playwright.sync_api import sync_playwright, Page
 from bs4 import BeautifulSoup
 import requests
-import json
-
+import json 
+import html
 
 class Scraper:
     def __init__(self):
@@ -37,6 +37,12 @@ class Scraper:
             'business_services': business_services,
             'business_fqa': business_fqa
         }
+    
+    def clean_data(self, data):
+        for entry in data:
+            entry["prompt"] = html.unescape(entry["prompt"])
+            entry["response"] = html.unescape(entry["response"])
+        return data
 
     def get_business_information(self, page: Page):
         path = '/nuestra-historia-anterior/mision-vision-valores/'
@@ -293,7 +299,7 @@ class Scraper:
         prompts = transformed_business_data + transformed_business_history + \
             transformed_business_ethics + transformed_business_services + transformed_business_fqa
 
-        return prompts
+        return self.clean_data(transformed_business_fqa)
 
     def load(self, transformed_data):
         with open('data/transformed.json', 'w') as f:
