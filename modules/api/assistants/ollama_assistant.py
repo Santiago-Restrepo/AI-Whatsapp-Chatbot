@@ -4,7 +4,9 @@ from langchain_community.vectorstores import FAISS
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import ollama
 import json
-
+import os
+import pickle
+os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 class OllamaAssistant:
     def __init__(self, documents_mode='web'):
         self.embeddings = OllamaEmbeddings(model='llama3')
@@ -28,30 +30,42 @@ class OllamaAssistant:
                 self.docs = json.load(file)
         else:
             raise ValueError("Invalid documents_mode. Must be 'web' or 'json'")
+        
+                # Check if cached vector representations exist
+        cache_file = 'cache/cached_vector.pkl'
+        if os.path.exists(cache_file):
+            print("Loading cached vector representations...")
+            with open(cache_file, 'rb') as f:
+                self.vector = pickle.load(f)
+            print("Cached vector representations loaded successfully.")
+        else:
+            print("Creating vector representation of documents...")
+            self.vector = FAISS.from_documents(self.documents, self.embeddings)
+            # Save the vector representations to cache
+            with open(cache_file, 'wb') as f:
+                pickle.dump(self.vector, f)
+            print("Vector representation of documents created and cached successfully.")
 
-        # Create vector representation of documents for similarity search
-        print("Creating vector representation of documents for similarity search...")
-        self.vector = FAISS.from_documents(self.documents, self.embeddings)
         self.retriever = self.vector.as_retriever()
 
-        print("Ollama Assistant initialized., #docs:", len(self.docs))
 
         
 
     def predict(self, question, conversation_history=[]):
         # Retrieve relevant documents based on the question
+        print("Retrieving relevant documents...")
         retrieved_docs = self.retriever.invoke(question)
         formatted_context = self.combine_docs(retrieved_docs)
+        print(len(retrieved_docs), "relevant documents retrieved successfully")
         
         # Generate response using the Ollama model
-        formatted_prompt = f"Contexto: {formatted_context}\n\Pregunta: {question}\nRespuesta: "
+        formatted_prompt = f"CONTEXTO -----\n\n({formatted_context})\n\n-----\n\nPregunta: {question}\n\nResponde de manera conscisa y corta: "
         messages = [{'role': 'user', 'content': formatted_prompt}]
         if conversation_history:
             messages = conversation_history + messages
         response = ollama.chat(model='llama3',
-                               messages=[{'role': 'user', 'content': formatted_prompt}],
-                               options={'temperature': 0},
-                               stream=True)
+                               messages=messages,
+                               options={'temperature': 0})
         return response['message']['content']
 
     def combine_docs(self, docs):

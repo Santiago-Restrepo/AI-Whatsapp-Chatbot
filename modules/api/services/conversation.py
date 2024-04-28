@@ -46,9 +46,8 @@ def define_conversation_status(**kwargs):
 
 def end_conversation_if_needed(conversation: Conversation, **kwargs):
     message = kwargs['webhook_data']['message']
-    db = kwargs['db']
     if message.lower() == 'finalizar' or conversation_timeout(conversation, **kwargs):
-        return end_conversation(conversation, db)
+        return end_conversation(conversation, **kwargs)
     return False
 
 def conversation_timeout(conversation: Conversation, **kwargs):
