@@ -23,6 +23,6 @@ def receive_message(Body: str = Form(), WaId: str = Form(),   db: Session = Depe
         },
         "db": db,
         "timeout": ONE_HOUR,
-        "llm": "santi-restrepo-poli/Llama-2-7b-chat-hf"
+        "llm": "llama3"
     }
     return webhook_service.run_conversation_flow(**data)
