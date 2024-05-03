@@ -8,7 +8,7 @@ shutil.copytree(source_folder, destination_folder, dirs_exist_ok=True)
 
 import json
 import random
-import time
+import os
 from ollama_assistant import OllamaAssistant
 from ollama_assistant.configurations import configurations
 
@@ -27,8 +27,12 @@ def save_data(data, path):
   with open(path, 'w') as f:
     json.dump(data,  f, indent=4)
 
+def create_directory_if_not_exists(directory_path):
+    if not os.path.exists(directory_path):
+        os.makedirs(directory_path)
+
 def generate_predictions(assistant, test_data, conversation_history_mock, configuration):
-  predictions_path = f"{data_path}/configuration_{configuration['id']}_predictions.json"
+  predictions_path = f"{data_path}/configuration_{configuration['id']}/predictions.json"
   predictions = []
   for data in test_data:
       # predict if it is not already predicted
@@ -53,8 +57,9 @@ def generate_predictions(assistant, test_data, conversation_history_mock, config
 if __name__ == '__main__':
     for configuration in configurations:
       try:
+        create_directory_if_not_exists("data/configuration_" + configuration['id'])
         test_data = get_random_test_data(random_size=30)
-        test_data_path = f"{data_path}/configuration_{configuration['id']}_test_data.json"
+        test_data_path = f"{data_path}/configuration_{configuration['id']}/test_data.json"
         save_data(test_data, test_data_path)
         assistant = OllamaAssistant(configuration=configuration)
         conversation_history_mock = [
