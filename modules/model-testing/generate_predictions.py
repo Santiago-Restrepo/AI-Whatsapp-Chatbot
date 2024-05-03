@@ -23,8 +23,12 @@ def get_random_test_data(random_size):
   
   return random.sample(scraped_data, random_size)
 
-def save_data(data, path):
-  with open(path, 'w') as f:
+def save_data(data, file_path):
+  # Ask if data paht already exists
+  if os.path.exists(file_path):
+    print("File exists!")
+    return
+  with open(file_path, 'w') as f:
     json.dump(data,  f, indent=4)
 
 def create_directory_if_not_exists(directory_path):
@@ -34,6 +38,9 @@ def create_directory_if_not_exists(directory_path):
 def generate_predictions(assistant, test_data, conversation_history_mock, configuration):
   predictions_path = f"{data_path}/configuration_{configuration['id']}/predictions.json"
   predictions = []
+  if os.path.exists(predictions_path):
+     with open(predictions_path, 'r') as f:
+      predictions = json.load(f)
   for data in test_data:
       # predict if it is not already predicted
       already_predicted = False
@@ -42,6 +49,7 @@ def generate_predictions(assistant, test_data, conversation_history_mock, config
               already_predicted = True
               break   
       if already_predicted:
+          print(f"Prompt already predicted: {data['prompt']}")
           continue
       prediction = assistant.predict(data['prompt'], conversation_history = conversation_history_mock)
       new_data = {

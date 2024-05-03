@@ -60,7 +60,7 @@ class OllamaAssistant:
         print(len(retrieved_docs), "relevant documents retrieved successfully")
         
         # Generate response using the Ollama model
-        formatted_prompt = self.configuration.format_prompt(question, formatted_context)
+        formatted_prompt = self.configuration['format_prompt'](question, formatted_context)
         messages = [{'role': 'user', 'content': formatted_prompt}]
         if conversation_history:
             messages = conversation_history + messages
