@@ -6,14 +6,12 @@ import ollama
 import json
 import os
 import pickle
-import random
-import time
-
+from ollama_assistant.configurations import configurations
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 class OllamaAssistant:
-    def __init__(self, documents_mode='web'):
+    def __init__(self, documents_mode='web', configuration=configurations[0]):
+        self.configuration = configuration
         self.embeddings = OllamaEmbeddings(model='llama3')
-
         # Load documents from the web or from JSON files based on the provided paths
         if documents_mode == 'web':
             base_url = 'https://www.personeriamedellin.gov.co'
@@ -62,7 +60,7 @@ class OllamaAssistant:
         print(len(retrieved_docs), "relevant documents retrieved successfully")
         
         # Generate response using the Ollama model
-        formatted_prompt = f"CONTEXTO -----\n\n({formatted_context})\n\n-----\n\nPregunta: {question}\n\nResponde de manera conscisa y corta: "
+        formatted_prompt = self.configuration.format_prompt(question, formatted_context)
         messages = [{'role': 'user', 'content': formatted_prompt}]
         if conversation_history:
             messages = conversation_history + messages
@@ -83,67 +81,3 @@ class OllamaAssistant:
             formatted_messages.append({'role': 'assistant', 'content': msg.response})
 
         return formatted_messages
-
-data_path = 'data'
-def select_test_data():
-
-  scraped_data_path = './../../../modules/scraping/data/transformed.json'
-
-  with open(scraped_data_path, 'r') as f:
-    scraped_data = json.load(f)
-  
-  return random.sample(scraped_data, 30)
-
-def load_test_data(data, timestamp):
-  final_path = f"{data_path}/test_data_{timestamp}.json"
-  with open(final_path, 'w') as f:
-    json.dump(data,  f, indent=4)
-  return final_path
-
-if __name__ == '__main__':
-    assistant = OllamaAssistant()
-
-
-    test_attempts = 5
-    conversation_history_mock = [
-        {
-            'role': 'assistant',
-            'content': 'Bienvenido al chatbot de la Personería Distrital De Medellín, la conversación finalizará una vez envíe la palabra finalizar o pasada 1 hora de haberse iniciado. ¿En qué podemos ayudarle el día de hoy?',
-        }
-    ]
-
-    for i in range(test_attempts):
-        test_data = select_test_data()
-        timestamp = time.time()
-        timestamp = str(timestamp).replace('.', '')
-        test_data_path = load_test_data(test_data, timestamp)
-        print(f"Test data loaded successfully for attempt {i+1}")
-        predictions_path = f"{data_path}/predictions_{timestamp}.json"
-        with open(test_data_path, 'r') as f:
-            test_data = json.load(f)
-
-            predictions = []
-            for data in test_data:
-                # predict if it is not already predicted
-                already_predicted = False
-                for prediction in predictions:
-                    if prediction['prompt'] == data['prompt']:
-                        already_predicted = True
-                        break   
-                if already_predicted:
-                    continue
-
-                prediction = assistant.predict(data['prompt'], conversation_history = conversation_history_mock)
-                new_data = {
-                'prompt': data['prompt'],
-                'reference': data['response'],
-                'prediction': prediction
-                }
-                predictions.append(new_data)
-
-                with open(predictions_path, 'w') as f:
-                    json.dump(predictions, f, indent=4)
-                
-                print(f"Prediction for prompt: {data['prompt']} saved successfully")
-    
-    print('All predictions saved successfully')

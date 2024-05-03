@@ -6,11 +6,12 @@ import ollama
 import json
 import os
 import pickle
+from ollama_assistant.configurations import configurations
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 class OllamaAssistant:
-    def __init__(self, documents_mode='web'):
+    def __init__(self, documents_mode='web', configuration=configurations[0]):
+        self.configuration = configuration
         self.embeddings = OllamaEmbeddings(model='llama3')
-
         # Load documents from the web or from JSON files based on the provided paths
         if documents_mode == 'web':
             base_url = 'https://www.personeriamedellin.gov.co'
@@ -59,7 +60,7 @@ class OllamaAssistant:
         print(len(retrieved_docs), "relevant documents retrieved successfully")
         
         # Generate response using the Ollama model
-        formatted_prompt = f"CONTEXTO -----\n\n({formatted_context})\n\n-----\n\nPregunta: {question}\n\nResponde de manera conscisa y corta: "
+        formatted_prompt = self.configuration.format_prompt(question, formatted_context)
         messages = [{'role': 'user', 'content': formatted_prompt}]
         if conversation_history:
             messages = conversation_history + messages
