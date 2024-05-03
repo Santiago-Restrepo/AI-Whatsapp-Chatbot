@@ -24,10 +24,7 @@ def get_random_test_data(random_size):
   return random.sample(scraped_data, random_size)
 
 def save_data(data, file_path):
-  # Ask if data paht already exists
-  if os.path.exists(file_path):
-    print("File exists!")
-    return
+
   with open(file_path, 'w') as f:
     json.dump(data,  f, indent=4)
 
@@ -68,7 +65,8 @@ if __name__ == '__main__':
         create_directory_if_not_exists("data/configuration_" + configuration['id'])
         test_data = get_random_test_data(random_size=30)
         test_data_path = f"{data_path}/configuration_{configuration['id']}/test_data.json"
-        save_data(test_data, test_data_path)
+        if not os.path.exists(test_data_path):
+          save_data(test_data, test_data_path)
         assistant = OllamaAssistant(configuration=configuration)
         conversation_history_mock = [
             {
