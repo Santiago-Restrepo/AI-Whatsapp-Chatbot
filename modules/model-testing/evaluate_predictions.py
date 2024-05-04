@@ -15,7 +15,7 @@ def get_predictions(directory_path):
   # Load all files inside data folder
   predictions = []
   for file in os.listdir(directory_path):
-    if file.endswith('.json'):
+    if file.endswith('predictions.json'):
       file_path = os.path.join(directory_path, file)
       with open(file_path, 'r') as f:
         predictions.extend(json.load(f))
@@ -25,14 +25,16 @@ def get_predictions(directory_path):
 
 def evaluate_predictions(test_predictions, results_path):
   
-  metrics = ['rouge', 'bleu', 'chrf', 'ter', 'google_bleu', 'sacrebleu']
+  metric_names = ['rouge', 'bleu', 'bertscore']
 
-  for metric in metrics:
-    metric = evaluate.load(metric)
+  for metric_name in metric_names:
+    metric = evaluate.load(metric_name)
     predictions = [prediction['prediction'] for prediction in test_predictions]
     references = [prediction['reference'] for prediction in test_predictions]
-    
-    results = metric.compute(predictions=predictions, references=references)
+    if(metric_name == 'bertscore'):
+      results = metric.compute(predictions=predictions, references=references, lang='es', model_type='bert-base-multilingual-cased')
+    else:
+      results = metric.compute(predictions=predictions, references=references)
     
     save_evaluation_results(results, metric.name, results_path)
 
@@ -52,4 +54,6 @@ if __name__ == '__main__':
     predictions = get_predictions(predictions_path)
 
     create_directory_if_not_exists(results_path)
+    print(f"Evaluating predictions for configuration {configuration['id']}")
     evaluate_predictions(predictions, results_path)
+    print(f"Evaluation results saved successfully for configuration {configuration['id']}")
