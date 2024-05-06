@@ -8,8 +8,9 @@ import pickle
 from ollama_assistant.configurations import configurations
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 class OllamaAssistant:
-    def __init__(self, configuration=configurations[0]):
+    def __init__(self, configuration=configurations[0], vector_cached=False):
         self.configuration = configuration
+        self.vector_chached = vector_cached
         self.load_and_save_documents()
         self.create_embeddings()
         self.create_vector_db()
@@ -33,7 +34,7 @@ class OllamaAssistant:
 
     def create_vector_db(self):
         cache_file = 'cache/cached_vector.pkl'
-        if os.path.exists(cache_file):
+        if os.path.exists(cache_file) and self.vector_chached:
             print("Loading cached vector representations...")
             with open(cache_file, 'rb') as f:
                 self.vector = pickle.load(f)
