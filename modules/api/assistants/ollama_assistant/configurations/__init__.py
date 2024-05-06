@@ -1,7 +1,11 @@
 configurations = [
   {
     'id': '0',
-    'format_prompt': lambda formatted_context, question: f"CONTEXTO -----\n\n({formatted_context})\n\n-----\n\nPregunta: {question}\n\nResponde de manera conscisa y corta: "
+    'format_prompt': lambda formatted_context, question: f"CONTEXTO -----\n\n({formatted_context})\n\n-----\n\nPregunta: {question}\n\nResponde de manera conscisa y corta: ",
+    'chunk_size': 500,
+    'chunk_overlap': 100,
+    'vector_store': 'faiss',
+    'embedding_model': 'nomic-embed-text',
   },
   {
     'id': '1',

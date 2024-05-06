@@ -1,38 +1,37 @@
 from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.embeddings import OllamaEmbeddings
-from langchain_community.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS, Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import ollama
-import json
 import os
 import pickle
 from ollama_assistant.configurations import configurations
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 class OllamaAssistant:
-    def __init__(self, documents_mode='web', configuration=configurations[0]):
+    def __init__(self, configuration=configurations[0]):
         self.configuration = configuration
-        self.embeddings = OllamaEmbeddings(model='llama3')
-        # Load documents from the web or from JSON files based on the provided paths
-        if documents_mode == 'web':
-            base_url = 'https://www.personeriamedellin.gov.co'
-            paths = ['/servicios/preguntas-frecuentes/']
-            web_paths = [base_url + path for path in paths]
-            self.loader = WebBaseLoader(web_paths=web_paths)
-            self.docs = self.loader.load()
-            self.text_splitter = RecursiveCharacterTextSplitter(
-                chunk_size=1500,
-                chunk_overlap=80,
-                length_function=len,
-            )
-            self.documents = self.text_splitter.split_documents(self.docs)
-        elif documents_mode == 'json':
-            file_path = 'data/transformed.json'
-            with open(file_path, 'r', encoding='utf-8') as file:
-                self.docs = json.load(file)
-        else:
-            raise ValueError("Invalid documents_mode. Must be 'web' or 'json'")
-        
-                # Check if cached vector representations exist
+        self.load_and_save_documents()
+        self.create_embeddings()
+        self.create_vector_db()
+        self.create_retriever()
+    
+    def load_and_save_documents(self):
+        base_url = 'https://www.personeriamedellin.gov.co'
+        paths = ['/servicios/preguntas-frecuentes/']
+        web_paths = [base_url + path for path in paths]
+        self.loader = WebBaseLoader(web_paths=web_paths)
+        self.docs = self.loader.load()
+        self.text_splitter = RecursiveCharacterTextSplitter(
+            chunk_size=self.configuration['chunk_size'],
+            chunk_overlap=self.configuration['chunk_overlap'],
+            length_function=len,
+        )
+        self.documents = self.text_splitter.split_documents(self.docs)
+
+    def create_embeddings(self):
+        self.embeddings = OllamaEmbeddings(model=self.configuration['embedding_model'], show_progress=True)
+
+    def create_vector_db(self):
         cache_file = 'cache/cached_vector.pkl'
         if os.path.exists(cache_file):
             print("Loading cached vector representations...")
@@ -40,17 +39,21 @@ class OllamaAssistant:
                 self.vector = pickle.load(f)
             print("Cached vector representations loaded successfully.")
         else:
-            print("Creating vector representation of documents...")
-            self.vector = FAISS.from_documents(self.documents, self.embeddings)
+            print("Creating vector representations...")
+
+            if self.configuration['vector_db'] == 'faiss':
+                self.vector = FAISS.from_documents(self.documents, self.embeddings)
+
+            elif self.configuration['vector_db'] == 'chroma':
+                self.vector = Chroma.from_documents(documents=self.documents, collection_name='chroma-collection', embedding=self.embeddings)
+
+            print("Vector representations created successfully.")
             # Save the vector representations to cache
             with open(cache_file, 'wb') as f:
                 pickle.dump(self.vector, f)
-            print("Vector representation of documents created and cached successfully.")
 
+    def create_retriever(self):
         self.retriever = self.vector.as_retriever()
-
-
-        
 
     def predict(self, question, conversation_history=[]):
         # Retrieve relevant documents based on the question
