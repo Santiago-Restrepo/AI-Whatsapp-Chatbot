@@ -1,42 +1,148 @@
 configurations = [
   {
+    'id': '11',
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1500,
+    'chunk_overlap': 100,
+    'vector_store': 'chroma',
+    'embedding_model': 'nomic-embed-text',
+  },
+    {
+    'id': '12',
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 500,
+    'chunk_overlap': 100,
+    'vector_store': 'chroma',
+    'embedding_model': 'llama3',
+  },
+  {
+    'id': '13',
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1000,
+    'chunk_overlap': 100,
+    'vector_store': 'chroma',
+    'embedding_model': 'llama3',
+  },
+  {
+    'id': '14',
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1500,
+    'chunk_overlap': 100,
+    'vector_store': 'chroma',
+    'embedding_model': 'llama3',
+  },
+
+    {
+    'id': '15',
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 500,
+    'chunk_overlap': 100,
+    'vector_store': 'chroma',
+    'embedding_model': 'mxbai-embed-large',
+  },
+  {
+    'id': '16',
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1000,
+    'chunk_overlap': 100,
+    'vector_store': 'chroma',
+    'embedding_model': 'mxbai-embed-large',
+  },
+  {
+    'id': '17',
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1500,
+    'chunk_overlap': 100,
+    'vector_store': 'chroma',
+    'embedding_model': 'mxbai-embed-large',
+  },
+  {
     'id': '0',
-    'format_prompt': lambda formatted_context, question: f"CONTEXTO -----\n\n({formatted_context})\n\n-----\n\nPregunta: {question}\n\nResponde de manera conscisa y corta: "
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 500,
+    'chunk_overlap': 100,
+    'vector_store': 'faiss',
+    'embedding_model': 'nomic-embed-text',
   },
   {
     'id': '1',
-    'format_prompt': lambda formatted_context, question: f"Responde la siguiente pregunta: {question}\n\nCONTEXTO -----\n\n({formatted_context})\n\n-----\n\n"
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1000,
+    'chunk_overlap': 100,
+    'vector_store': 'faiss',
+    'embedding_model': 'nomic-embed-text',
   },
   {
     'id': '2',
-    'format_prompt': lambda formatted_context, question: f"Pregunta: {question}\n\nContexto: {formatted_context}\n\nRespuesta: "  
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1500,
+    'chunk_overlap': 100,
+    'vector_store': 'faiss',
+    'embedding_model': 'nomic-embed-text',
   },
     {
     'id': '3',
-    'format_prompt': lambda formatted_context, question: f"Pregunta: {question}\n\nContexto: {formatted_context}\n\nPor favor, proporciona una respuesta precisa: "
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 500,
+    'chunk_overlap': 100,
+    'vector_store': 'faiss',
+    'embedding_model': 'llama3',
   },
   {
     'id': '4',
-    'format_prompt': lambda formatted_context, question: f"Considera el siguiente contexto:\n\n{formatted_context}\n\nAhora, responde la pregunta: {question}\n\nRespuesta: "
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1000,
+    'chunk_overlap': 100,
+    'vector_store': 'faiss',
+    'embedding_model': 'llama3',
   },
   {
     'id': '5',
-    'format_prompt': lambda formatted_context, question: f"Observa el siguiente escenario:\n\n{formatted_context}\n\nAhora, brinda una respuesta a la pregunta planteada: {question}\n\nTu respuesta: "
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1500,
+    'chunk_overlap': 100,
+    'vector_store': 'faiss',
+    'embedding_model': 'llama3',
   },
-  {
+
+    {
     'id': '6',
-    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: "
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 500,
+    'chunk_overlap': 100,
+    'vector_store': 'faiss',
+    'embedding_model': 'mxbai-embed-large',
   },
   {
     'id': '7',
-    'format_prompt': lambda formatted_context, question: f"Explique cómo abordaría esta situación, dada la siguiente información:\n\n{formatted_context}\n\nPregunta: {question}\n\nRespuesta: "
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1000,
+    'chunk_overlap': 100,
+    'vector_store': 'faiss',
+    'embedding_model': 'mxbai-embed-large',
   },
   {
     'id': '8',
-    'format_prompt': lambda formatted_context, question: f"Antes de responder, considera el contexto siguiente:\n\n{formatted_context}\n\nAhora, responde la siguiente pregunta: {question}\n\nTu respuesta: "
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1500,
+    'chunk_overlap': 100,
+    'vector_store': 'faiss',
+    'embedding_model': 'mxbai-embed-large',
   },
   {
     'id': '9',
-    'format_prompt': lambda formatted_context, question: f"El siguiente contexto es relevante para la pregunta planteada:\n\n{formatted_context}\n\nPor favor, proporcione una respuesta a la pregunta: {question}\n\nRespuesta: "
-  }
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 500,
+    'chunk_overlap': 100,
+    'vector_store': 'chroma',
+    'embedding_model': 'nomic-embed-text',
+  },
+  {
+    'id': '10',
+    'format_prompt': lambda formatted_context, question: f"Contexto:\n{formatted_context}\n\nPregunta:\n{question}\n\nPor favor, proporcione una respuesta concisa: ",
+    'chunk_size': 1000,
+    'chunk_overlap': 100,
+    'vector_store': 'chroma',
+    'embedding_model': 'nomic-embed-text',
+  },
 ]

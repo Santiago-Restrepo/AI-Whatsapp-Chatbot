@@ -61,26 +61,27 @@ def generate_predictions(assistant, test_data, conversation_history_mock, config
 
 if __name__ == '__main__':
     for configuration in configurations:
-      try:
-        create_directory_if_not_exists("data/configuration_" + configuration['id'])
-        test_data = get_random_test_data(random_size=30)
-        test_data_path = f"{data_path}/configuration_{configuration['id']}/test_data.json"
-        if not os.path.exists(test_data_path):
-          save_data(test_data, test_data_path)
-        assistant = OllamaAssistant(configuration=configuration)
-        conversation_history_mock = [
-            {
-                'role': 'assistant',
-                'content': 'Bienvenido al chatbot de la Personería Distrital De Medellín, la conversación finalizará una vez envíe la palabra finalizar o pasada 1 hora de haberse iniciado. ¿En qué podemos ayudarle el día de hoy?',
-            }
-        ]
-        print(f"Test data loaded successfully for configuration {configuration['id']}")
-        with open(test_data_path, 'r') as f:
-            test_data = json.load(f)
-            generate_predictions(assistant, test_data, conversation_history_mock, configuration)
-        print(f"Predictions saved successfully for configuration {configuration['id']}")
-      except Exception as e:
-        print(f"Error: {e}")
-        continue
+      create_directory_if_not_exists("data/configuration_" + configuration['id'])
+      test_data = get_random_test_data(random_size=30)
+      test_data_path = f"{data_path}/configuration_{configuration['id']}/test_data.json"
+      if not os.path.exists(test_data_path):
+        save_data(test_data, test_data_path)
+      assistant = OllamaAssistant(configuration=configuration)
+      conversation_history_mock = [
+          {
+              'role': 'assistant',
+              'content': 'Bienvenido al chatbot de la Personería Distrital De Medellín, la conversación finalizará una vez envíe la palabra finalizar o pasada 1 hora de haberse iniciado. ¿En qué podemos ayudarle el día de hoy?',
+          }
+      ]
+      print(f"Test data loaded successfully for configuration {configuration['id']}")
+      with open(test_data_path, 'r') as f:
+          test_data = json.load(f)
+          generate_predictions(assistant, test_data, conversation_history_mock, configuration)
+      print(f"Predictions saved successfully for configuration {configuration['id']}")
+
+      # try:
+      # except Exception as e:
+      #   print(f"Error: {e}")
+      #   continue
     
     print('All predictions saved successfully')

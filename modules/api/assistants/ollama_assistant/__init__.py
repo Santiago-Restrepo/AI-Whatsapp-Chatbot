@@ -42,16 +42,17 @@ class OllamaAssistant:
         else:
             print("Creating vector representations...")
 
-            if self.configuration['vector_db'] == 'faiss':
+            if self.configuration['vector_store'] == 'faiss':
                 self.vector = FAISS.from_documents(self.documents, self.embeddings)
 
-            elif self.configuration['vector_db'] == 'chroma':
-                self.vector = Chroma.from_documents(documents=self.documents, collection_name='chroma-collection', embedding=self.embeddings)
+            elif self.configuration['vector_store'] == 'chroma':
+                collection_name = f"chroma-collection-cfg{self.configuration['id']}"
+                self.vector = Chroma.from_documents(documents=self.documents, collection_name=collection_name, embedding=self.embeddings)
 
             print("Vector representations created successfully.")
             # Save the vector representations to cache
-            with open(cache_file, 'wb') as f:
-                pickle.dump(self.vector, f)
+            # with open(cache_file, 'wb') as f:
+            #     pickle.dump(self.vector, f)
 
     def create_retriever(self):
         self.retriever = self.vector.as_retriever()
