@@ -1,3 +1,11 @@
+import shutil
+# Source and destination folders
+source_folder = '../api/assistants/ollama_assistant'
+destination_folder = './ollama_assistant'
+
+# Copy the entire contents of the source folder to the destination folder
+shutil.copytree(source_folder, destination_folder, dirs_exist_ok=True)
+
 import pandas as pd
 import numpy as np
 from ollama_assistant.configurations import configurations
