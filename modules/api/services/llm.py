@@ -1,7 +1,9 @@
 from models.llm import Llm
 from assistants import assistants
+from assistants.ollama_assistant import configurations
 
-assistant = assistants['ollama-assistant']()
+configuration = configurations[1]
+assistant = assistants['ollama-assistant'](configuration=configuration, vector_cached=True)
 
 def generate_llm_response(conversation_messages=None,**kwargs):
     user_message = kwargs['webhook_data']['message']

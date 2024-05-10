@@ -5,7 +5,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 import ollama
 import os
 import pickle
-from ollama_assistant.configurations import configurations
+from .configurations import configurations
+
 os.environ["KMP_DUPLICATE_LIB_OK"]="TRUE"
 class OllamaAssistant:
     def __init__(self, configuration=configurations[0], vector_cached=False):
@@ -50,9 +51,9 @@ class OllamaAssistant:
                 self.vector = Chroma.from_documents(documents=self.documents, collection_name=collection_name, embedding=self.embeddings)
 
             print("Vector representations created successfully.")
-            # Save the vector representations to cache
-            # with open(cache_file, 'wb') as f:
-            #     pickle.dump(self.vector, f)
+            #Save the vector representations to cache
+            with open(cache_file, 'wb') as f:
+                pickle.dump(self.vector, f)
 
     def create_retriever(self):
         self.retriever = self.vector.as_retriever()
