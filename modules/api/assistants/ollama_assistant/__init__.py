@@ -35,6 +35,7 @@ class OllamaAssistant:
 
     def create_vector_db(self):
         cache_file = 'cache/cached_vector.pkl'
+
         if os.path.exists(cache_file) and self.vector_chached:
             print("Loading cached vector representations...")
             with open(cache_file, 'rb') as f:
